@@ -20,7 +20,7 @@ Toon na afwerken het resultaat aan je begeleider. Elk teamlid moet in staat zijn
 
 ## Probleemstelling
 
-Gedurende je opleiding zal je verschillende softwarepakketten moeten installeren op je laptop. De meeste applicaties zijn *open source* en kan je gratis downloaden en installeren. Zowel Windows- als Mac-gebruikers krijgen dan vaak als instructie om naar de website van de applicatie te gaan, die te downloaden en een installatie-wizard te doorlopen. Dit is een tijdrovende bezigheid.
+Gedurende je opleiding zal je verschillende softwarepakketten moeten installeren op je laptop. De meeste applicaties zijn _open source_ en kan je gratis downloaden en installeren. Zowel Windows- als Mac-gebruikers krijgen dan vaak als instructie om naar de website van de applicatie te gaan, die te downloaden en een installatie-wizard te doorlopen. Dit is een tijdrovende bezigheid.
 
 Eens geïnstalleerd, krijg je bovendien te pas en te onpas notificaties dat er voor bepaalde applicaties een update beschikbaar is. Dit zorgt voor onderbrekingen en afleiding op momenten dat je met andere zaken wil bezig zijn.
 
@@ -42,7 +42,7 @@ Noteer ook je bevindingen tijdens het doorlopen van deze opdracht. Deze zal je m
 
 Onder de studenten Toegepaste Informatica zijn de Linuxgebruikers meestal een kleine minderheid. Dit is te begrijpen, want als je een laptop koopt, staat er meestal al Windows op. Desondanks is Linux gebruiken zeker het overwegen waard. Voor de meeste IT-professionals is Linux een uitstekend besturingssysteem. Vele applicaties voor softwareontwikkeling, systeem- en netwerkbeheer, cybersecurity, enz. zijn gratis beschikbaar. Ook voor bekende commerciële applicaties zoals MS Office zijn er compatibele alternatieven beschikbaar (bv. LibreOffice).
 
-Het is jammer genoeg niet eenvoudig om eenduidige instructies voor Linux-gebruikers te formuleren. Eén van de verschillen tussen de vele distributies is immers vaak de *package manager.* In wat hieronder volgt, veronderstellen we dat je **Ubuntu** gebruikt, omdat dat een bekende, stabiele distributie is die ook geschikt is voor beginnende gebruikers. Heb je een andere distributie geïnstalleerd, dan zal je de equivalante commando's voor jouw package manager moeten opzoeken. Als dit niet lukt, contacteer dan je lectoren voor specifieke hulp. Geef zeker mee welke distributie en versie je geïnstalleerd hebt op je laptop.
+Het is jammer genoeg niet eenvoudig om eenduidige instructies voor Linux-gebruikers te formuleren. Eén van de verschillen tussen de vele distributies is immers vaak de _package manager._ In wat hieronder volgt, veronderstellen we dat je **Ubuntu** gebruikt, omdat dat een bekende, stabiele distributie is die ook geschikt is voor beginnende gebruikers. Heb je een andere distributie geïnstalleerd, dan zal je de equivalante commando's voor jouw package manager moeten opzoeken. Als dit niet lukt, contacteer dan je lectoren voor specifieke hulp. Geef zeker mee welke distributie en versie je geïnstalleerd hebt op je laptop.
 
 #### Een script schrijven
 
@@ -98,7 +98,7 @@ Op dit punt wordt het interessant om een lijstje op te bouwen van commando's die
 
 #### Het installatiescript afwerken
 
-We weten nu dat je een applicatie kan installeren met ```sudo apt install <packagenaam>```. Pas het script van daarstraks nu aan:
+We weten nu dat je een applicatie kan installeren met `sudo apt install <packagenaam>`. Pas het script van daarstraks nu aan:
 
 ```bash
 #! /bin/bash
@@ -132,7 +132,7 @@ Voor System Engineering Lab heb je volgende applicaties nodig:
 - VirtualBox: laat toe om zgn. virtuele computers aan te maken, op te starten en te installeren met een besturingssysteem
 - MySQL Workbench
 
-Je kan zelf het installatiescript onderverdelen in "rubrieken", bv. software die je voor verschillende vakken nodig hebt kunnen onder de lijn die "Installatie algemene applicaties" op de console afdrukt.  Software die je nodig hebt voor een specifiek vak kan je onder een aparte hoofding plaatsen, bv.
+Je kan zelf het installatiescript onderverdelen in "rubrieken", bv. software die je voor verschillende vakken nodig hebt kunnen onder de lijn die "Installatie algemene applicaties" op de console afdrukt. Software die je nodig hebt voor een specifiek vak kan je onder een aparte hoofding plaatsen, bv.
 
 ```bash
 echo "=== Software voor System Engineering Lab ==="
@@ -336,12 +336,12 @@ We weten nu dat je een applicatie kan installeren met `choco install <packagenaa
 ```PowerShell
 # Automatiseren software-installatie
 Write-Host "Installatie algemene applicaties"
-choco install -y git 
+choco install -y git
 ```
 
 De optie **-y** zorgt ervoor dat je tijdens de uitvoering van het script niet meer moet bevestigen dat je Git wil installeren. Merk op dat als een applicatie al geïnstalleerd is, je een waarschuwing krijgt, maar het script wel kan verder lopen. Het kan dus geen kwaad om het script verschillende keren na elkaar uit te voeren.
 
-Zoek de naam op van de packages voor de hieronder opgesomde applicaties en vul je installatiescript aan. Voeg telkens een regel toe die begint met  `choco install -y <packagenaam>`. Als je de applicatie al geïnstalleerd hebt, kan je overwegen om deze even te verwijderen en opnieuw te installeren via Chocolatey. Dat zal later het up-to-date houden van je systeem vereenvoudigen, want dan kan je **choco** gebruiken om alle software in één keer bij te werken.
+Zoek de naam op van de packages voor de hieronder opgesomde applicaties en vul je installatiescript aan. Voeg telkens een regel toe die begint met `choco install -y <packagenaam>`. Als je de applicatie al geïnstalleerd hebt, kan je overwegen om deze even te verwijderen en opnieuw te installeren via Chocolatey. Dat zal later het up-to-date houden van je systeem vereenvoudigen, want dan kan je **choco** gebruiken om alle software in één keer bij te werken.
 
 - Adobe Acrobat Reader (of een andere applicatie om PDF's te openen, bv FoxIt Reader)
 - Firefox: de bekende webbrowser (of jouw favoriete webbrowser, voor zover die beschikbaar is via Chocolatey)
@@ -355,7 +355,7 @@ Voor System Engineering Lab heb je bovendien nog volgende applicaties nodig:
 - VirtualBox: laat toe om virtuele machines aan te maken, op te starten en te installeren met een besturingssysteem
 - MySQL Workbench
 
-Je kan zelf het installatiescript onderverdelen in "rubrieken", bv. software die je voor verschillende vakken nodig hebt kunnen onder de lijn die "Installatie algemene applicaties" op de console afdrukt.  Software die je nodig hebt voor een specifiek opleidingsonderdeel kan je onder een aparte hoofding plaatsen, bv.
+Je kan zelf het installatiescript onderverdelen in "rubrieken", bv. software die je voor verschillende vakken nodig hebt kunnen onder de lijn die "Installatie algemene applicaties" op de console afdrukt. Software die je nodig hebt voor een specifiek opleidingsonderdeel kan je onder een aparte hoofding plaatsen, bv.
 
 ```PowerShell
 Write-Host "Software voor System Engineering Lab"
@@ -393,20 +393,20 @@ Hier start een nieuwe paragraaf.
 
 ## Opmaak
 
-Met behulp van sterretjes kan je tekst *benadrukken* of **in het vet zetten**.
+Met behulp van sterretjes kan je tekst _benadrukken_ of **in het vet zetten**.
 
 Met backquotes kan je inline tekst formatteren als `code`. Voor volledige paragrafen gebruik je driedubbele backquotes (```), eventueel gevolgd door een programmeer- of opmaaktaal:
 
 ```java
 public static void main(String[] args) {
-   System.out.println("Hello, World!"); 
+   System.out.println("Hello, World!");
 }
 ```
 
 ## Lijsten
 
-Lijsten maak je met behulp van een "bullet"-teken (-, +, of *), gevolgd door een spatie:
- 
+Lijsten maak je met behulp van een "bullet"-teken (-, +, of \*), gevolgd door een spatie:
+
 - Item 1
 - Item 2
 - Item 3
@@ -415,16 +415,20 @@ Sublijsten maak je door extra indentatie te voorzien:
 
 - Item 1
 - Item 2
- * Item 2a
- * Item 2b
+
+* Item 2a
+* Item 2b
+
 - Item 3
 
 Je kan uiteraard ook genummerde lijsten maken:
 
 1. Item 1
 2. Item 2
- - Item 2a
- - Item 2b
+
+- Item 2a
+- Item 2b
+
 3. Item 3
 
 ## Links en afbeeldingen
