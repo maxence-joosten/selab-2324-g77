@@ -16,5 +16,8 @@
 ## Git 
 =======
 ## Git uploaden van bestanden 
+1.  upload je bestand door een verplichte titel en beschrijving in te vullen.
+2. klik op commit 
+3. push knop rechts boven (pijltje)
 
 
