@@ -12,7 +12,9 @@
 3. kies de aangemaakte map 
 4. refresh(Fetch origin)
 
+
 ## Git 
-1. 
+=======
+## Git uploaden van bestanden 
 
 
