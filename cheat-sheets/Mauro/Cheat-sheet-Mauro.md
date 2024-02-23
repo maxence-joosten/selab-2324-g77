@@ -1,4 +1,4 @@
-Cheat sheets en checklists
+# Cheat sheets en checklists
 
 > Student: Mauro Maratta
 
@@ -31,3 +31,12 @@ Simpele git workflow voor projecten met een enkele branch en zonder contributors
 1. Is het IP-adres correct? `ip a`
 2. Is de router/default gateway correct? `ip r -n`
 3. Is een DNS-server ingesteld? `cat /etc/resolv.conf`
+
+## Chocolaty commando's
+
+| **Taak**                                                                | **Commando**                   |
+| ----------------------------------------------------------------------- | ------------------------------ |
+| Een lijst tonen van de software die nu geïnstalleerd is via Chocolatey  | choco list                     |
+| Alle packages die nu geïnstalleerd zijn bijwerken tot de laatste versie | choco upgrade all<br>          |
+| Via de console een package opzoeken                                     | choco search zoekterm          |
+| Een geïnstalleerde applicatie verwijderen                               | choco uninstall <package_naam> |
