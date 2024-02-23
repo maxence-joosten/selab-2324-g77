@@ -8,13 +8,13 @@ Het doel van deze opdrachten is om vertrouwd te raken met concepten zoals Linux,
 
 Lijst alle teamleden op met hun GitHub gebruikersnaam:
 
-| Name      | GitHub username                         |
-| :-------- | :-------------------------------------- |
-| Mauro Maratta (202396569) | [MaSeraphina](https://github.com/MaSeraphina) |
-| Xander Beuselinck | [xanderbeuselinck](https://github.com/xanderbeuselinck) |
-| Maxence Joosten | [maxence-joosten](https://github.com/maxence-joosten) |
-| Robin Sonck | [RobinS45](https://github.com/RobinS45) |
-| Student 5 | [username](https://github.com/username) |
+| Name                      | GitHub username                                         |
+| :------------------------ | :------------------------------------------------------ |
+| Mauro Maratta (202396569) | [MaSeraphina](https://github.com/MaSeraphina)           |
+| Xander Beuselinck         | [xanderbeuselinck](https://github.com/xanderbeuselinck) |
+| Maxence Joosten           | [maxence-joosten](https://github.com/maxence-joosten)   |
+| Robin Sonck               | [RobinS45](https://github.com/RobinS45)                 |
+| Thomas Lambrecht          | [LambrechtThomas](https://github.com/LambrechtThomas)   |
 
 ## Inhoudstafel
 
