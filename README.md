@@ -13,7 +13,7 @@ Lijst alle teamleden op met hun GitHub gebruikersnaam:
 | Mauro Maratta (202396569) | [MaSeraphina](https://github.com/MaSeraphina) |
 | Xander Beuselinck | [xanderbeuselinck](https://github.com/xanderbeuselinck) |
 | Maxence Joosten | [maxence-joosten](https://github.com/maxence-joosten) |
-| Student 4 | [username](https://github.com/username) |
+| Robin Sonck | [RobinS45](https://github.com/RobinS45) |
 | Student 5 | [username](https://github.com/username) |
 
 ## Inhoudstafel
