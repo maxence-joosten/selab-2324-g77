@@ -3,7 +3,7 @@
 > Naam verslaggever: MAURO MARATTA
 
 ## Beschrijving
-We gaan in deze opdracht leren hoe we een package manager moeten installeren en gebruiken. Dit doen we zodat al onze software meer gecentraliseerd is en zo gemakklijker te beheren op verschillende computers. Dit zou ons dan ook veel tijd moeten besparen als we andere computers gebruiken om het project verder af te werken.
+We gaan in deze opdracht leren hoe we een package manager moeten installeren en gebruiken. Dit doen we zodat al onze software meer gecentraliseerd is en verwachten zo gemakklijker de software te beheren op verschillende computers. Dit zou ons dan ook veel tijd moeten besparen als we andere computers gebruiken om het project verder af te werken.
 
 ## Antwoorden op de vragen in de opdracht
 ### Vraag 1.1 - De PowerShell-prompt toont de map waar we ons nu bevinden. Wat is de naam van deze directory?
@@ -56,9 +56,9 @@ Ik heb wel enkele keren informatie opgezocht op `Github: opdrachten: 1-...` om d
 3. Een nieuwe markdownfile maken.
 
 ## Reflecties
-Wat was moeilijk? Wat was eenvoudig? Wat hebben jullie geleerd van de opdracht? Wat zouden jullie anders doen als jullie het opnieuw moesten doen?
+Het maken van een scriptje was iets nieuws voor mij. Ik wist bevoorbeeld niet dat powershell ISE bestond en zou dit gewoon gemaakt hebben met visual studio code en google als mijn vriend voor alle info te verkrijgen.
 
-Als jullie nog andere opmerkingen hebben over de opdracht hebben, voel je vrij om ze te delen.
+Omdat dit de eerste opdracht was zijn er toch wel enkele zaken niet zo goed gegaan. Zo was het niet direct duidelijk hoe we de opdracht eerst moesten aanpakken en hoe we het beste samenwerkte. Dit is nu wel iets beter onder de knie, dus ik vermoed geen verdere problemen.
 
 ## Bronnen
 - Hogent-SELab. (n.d.). _GitHub - HOGENT-SELab/selab-labs_. GitHub. https://github.com/HOGENT-SELab/selab-labs
