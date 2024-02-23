@@ -10,9 +10,9 @@ Lijst alle teamleden op met hun GitHub gebruikersnaam:
 
 | Name      | GitHub username                         |
 | :-------- | :-------------------------------------- |
-| Student 1 | [username](https://github.com/username) |
-| Student 2 | [username](https://github.com/username) |
-| Student 3 | [username](https://github.com/username) |
+| Mauro Maratta (202396569) | [MaSeraphina](https://github.com/MaSeraphina) |
+| Xander Beuselinck | [xanderbeuselinck](https://github.com/xanderbeuselinck) |
+| Maxence Joosten | [maxence-joosten](https://github.com/maxence-joosten) |
 | Student 4 | [username](https://github.com/username) |
 | Student 5 | [username](https://github.com/username) |
 
