@@ -90,7 +90,7 @@ Dit is immers makkelijk toepasbaar.
 Ja, deze werd zo zorgvuldig mogelijk ingevuld.
 
 ## Reflecties
-Deze opdracht was tof en intrigerend. Het was aangenaam om eens in aanmerking te komen met scripts. Echter was dit het eerste opdracht, dus was er niet veel werk, maar dit mag wel eens.
+Deze opdracht was tof en intrigerend. Het was aangenaam om eens in aanmerking te komen met scripts. Ook het gebruik van MarkDown is iets nieuws voor mij, maar lijkt mij heel handig om te kunnen gebruiken.
 
 ## Bronnen
 - [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
