@@ -30,17 +30,10 @@ In deze opdracht zijn we heel kort in aanmerking gekomen met scripts dit via Pow
     
 ## Evaluatiecriteria
 - [ ] Je hebt een package manager voor jouw besturingssysteem geïnstalleerd.
-
 - [ ] Je hebt een script (PowerShell of Bash, afhankelijk van je besturingssysteem) geschreven en gebruikt om de opgesomde applicaties te installeren.
-
 - [ ] Je toont inzicht in de werking van een package manager en kan deze vlot kan gebruiken om basistaken uit te voeren.
-
 - [ ] Je hebt een verslag gemaakt op basis van het template.
-
 - [ ] De cheat sheet werd aangevuld met nuttige commando's die je wenst te onthouden voor later.
-
-  
-  
 
 ## Problemen en oplossingen
 Ik persoonlijk heb geen grote problemen tegengekomen. Het op zoeken van bepaalde commando's was wel hier van orde. Immers is Markdown, Scripts en Chocolatey is voor mij geen gekende taal.
@@ -66,7 +59,7 @@ Set-ExecutionPolicy Bypass -Scope Process
 
 ### Je hebt een script (PowerShell of Bash, afhankelijk van je besturingssysteem) geschreven en gebruikt om de opgesomde applicaties te installeren.
 Het script kan immers getoond worden of gereconstrueerd worden.
-Om dan de applicatie's te installeren gebruikt men volgende commando:
+Om dan de applicaties te installeren gebruikt men volgende commando:
 ```PowerShell
 choco install -y <packagename>
 ```
