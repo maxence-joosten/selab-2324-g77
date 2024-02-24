@@ -87,7 +87,7 @@ Door de sheat-sheet te raadplegen, kunnen we makkelijker tonen wat we voor deze 
 
 Om aan te tonen dat we een package manager geïnstalleerd hebben, gaan we het commando `choco -?` uitvoeren. Zo kunnen we bewijzen dat we Chocolatey geïnstalleerd hebben (dit is voor Windows). Om te tonen dat we wat weten over hoe deze package manager werkt, kunnen we enkele soorten software installeren door bijvoorbeeld `choco install -y git` te executen.
 
-Vervolgens kunnen we het script die we geschreven hebben tonen, dit script installeerd enkele softwarepakketten en is interactief met mooie visuals. Om naar het script te gaan gebruiken we `cd [path naar script]`, en om het vervolgens uit te voeren typen we de naam van het script.
+Vervolgens kunnen we het script die we geschreven hebben tonen. Dit script installeerd enkele softwarepakketten met mooie visuals. Om naar het script te gaan gebruiken we `cd [path naar script]`, en om het vervolgens uit te voeren typen we de naam van het script.
 
 ## Reflecties
 
