@@ -30,11 +30,11 @@ In deze opdracht zijn we heel kort in aanmerking gekomen met scripts dit via Pow
     * ```choco uninstall <name>```
     
 ## Evaluatiecriteria
-- [ ] Je hebt een package manager voor jouw besturingssysteem geïnstalleerd.
-- [ ] Je hebt een script (PowerShell of Bash, afhankelijk van je besturingssysteem) geschreven en gebruikt om de opgesomde applicaties te installeren.
-- [ ] Je toont inzicht in de werking van een package manager en kan deze vlot kan gebruiken om basistaken uit te voeren.
-- [ ] Je hebt een verslag gemaakt op basis van het template.
-- [ ] De cheat sheet werd aangevuld met nuttige commando's die je wenst te onthouden voor later.
+- [x] Je hebt een package manager voor jouw besturingssysteem geïnstalleerd.
+- [x] Je hebt een script (PowerShell of Bash, afhankelijk van je besturingssysteem) geschreven en gebruikt om de opgesomde applicaties te installeren.
+- [x] Je toont inzicht in de werking van een package manager en kan deze vlot kan gebruiken om basistaken uit te voeren.
+- [x] Je hebt een verslag gemaakt op basis van het template.
+- [x] De cheat sheet werd aangevuld met nuttige commando's die je wenst te onthouden voor later.
 
 ## Problemen en oplossingen
 Ik persoonlijk heb geen grote problemen tegengekomen. Het op zoeken van bepaalde commando's was hier wel van de orde. Immers is Markdown, Scripts en Chocolatey voor mij geen gekende taal.
