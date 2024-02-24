@@ -10,6 +10,7 @@
 | Alle packages die nu geïnstalleerd zijn bijwerken tot de laatste versie | `choco upgrade all`                          |
 | Via de console een package opzoeken                                     | `choco search [insert package naam hier]`    |
 | Een geïnstalleerde applicatie verwijderen                               | `choco uninstall [insert package naam hier]` |
+| Scripts enabelen                                                        | `Set-ExecutionPolicy Bypass -Scope Process`  |
 
 ## Markdown Cheat-sheet
 
