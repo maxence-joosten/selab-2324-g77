@@ -70,5 +70,5 @@ Write-Host " ✅ | Installed: FileZilla" -ForegroundColor White
 Write-Host "『Upadates』"-ForegroundColor Green
 choco upgrade all -y
 
-Write-Host "『List of all programms』" -foregroundColor DarkRed
+Write-Host "『List of all programms』" -foregroundColor Green
 choco list
