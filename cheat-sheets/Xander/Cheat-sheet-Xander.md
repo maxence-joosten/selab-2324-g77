@@ -1,12 +1,12 @@
 >Student: Xander Beuselinck 
 ## cheat-sheet Chocolatery
 
-| taak             |                Commando |
-| ---------------- | ----------------------: |
-| installeren      |           choco install |
-| choco list       |          toont packages |
-| choco info       | informatie over package |
-| choco uninstall  |               uninstall |
+| taak                     |                     Commando |
+| ------------------------ | ---------------------------: |
+| installeren              |      <br>```choco install``` |
+| toont packages           | <br>```   choco list     ``` |
+| informatie over package  |        <br>```choco info ``` |
+| verwijderen van software | <br>```choco    uninstall``` |
 ## Basiscommando's
 
 | Taak                                                   | Commando                         |
