@@ -3,7 +3,7 @@
 > Naam verslaggever: Thomas Lambrecht  
 
 ## Beschrijving
-In deze opdracht zijn we heel kort in aanmerking gekomen met scripts dit via PoweShell ISE. Het gebruiken van een package manager om download processen te vergemakkelijken was hier ook een onderdeel van. Tot slot het gebruiken van MarkDown, een gevoel crieëren voor de specifieke syntac.
+In deze opdracht zijn we heel kort in aanmerking gekomen met scripts dit via PoweShell ISE. Het gebruiken van een package manager om download processen te vergemakkelijken was hier ook een onderdeel van. Tot slot het gebruiken van MarkDown, een gevoel creëren voor de specifieke syntax.
 
 ## Vragen
 ### Beantwoord nu onderstaande vragen:
