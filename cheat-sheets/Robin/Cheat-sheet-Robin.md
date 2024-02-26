@@ -81,3 +81,12 @@
 `> (text)`
 
 > (text)
+
+
+
+
+| command     | 
+|------------ | 
+| - item 1  | 
+| * subitem 2   |  
+| 2. item 2   |  
