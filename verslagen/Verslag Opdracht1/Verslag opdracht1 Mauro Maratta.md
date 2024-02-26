@@ -6,25 +6,39 @@
 We gaan in deze opdracht leren hoe we een package manager moeten installeren en gebruiken. Dit doen we zodat al onze software meer gecentraliseerd is en verwachten zo gemakklijker de software te beheren op verschillende computers. Dit zou ons dan ook veel tijd moeten besparen als we andere computers gebruiken om het project verder af te werken.
 
 ## Antwoorden op de vragen in de opdracht
-### Vraag 1.1 - De PowerShell-prompt toont de map waar we ons nu bevinden. Wat is de naam van deze directory?
-System32
-### Vraag 1.2 - In welke map heb je het script bewaard?
-Ik heb het in mijn `C:\Users\MaMarat\OneDrive - Hogeschool Gent\` opgeslaan.
-### Vraag 1.3 - In welke map is het script bewaard in de screenshot in Figuur 10?
-`D:\Users\BertVV\Documents\HoGent\SELab\Installatie.ps1`
-### Vraag 1.4 - Gebruik het commando **cd** (change directory) om naar de map te gaan waar je je script hebt bewaard.
-```bash
-C:\windows\system32> cd "C:\Users\MaMarat\OneDrive - Hogeschool Gent"
-C:\Users\MaMarat\OneDrive - Hogeschool Gent> 
-```
-### Vraag 1.5 - Tik `.\Installatie.ps1` en druk ENTER om het script uit te voeren.
-```bash
-C:\Users\MaMarat\OneDrive - Hogeschool Gent> .\Installatie.ps1
-Hello world
+## Windows PowerShell ISE
 
-C:\Users\MaMarat\OneDrive - Hogeschool Gent> 
+### Vraag 1 - De PowerShell-prompt toont de map waar we ons nu bevinden. Wat is de naam van deze directory?
+
+`System32`
+
+### Vraag 2 - In welke map heb je het script bewaard?
+
+ `C:\Users\MaMarat\Documents\SE-LAB`
+
+### Vraag 3 - In welke map is het script bewaard in de screenshot in Figuur 10?
+
+`D:\Users\BertVV\Documents\HoGent\SELab\Installatie.ps1`
+
+### Vraag 4 - Gebruik het commando **cd** (change directory) om naar de map te gaan waar je je script hebt bewaard.
+
+```bash
+C:\windows\system32> cd "C:\Users\MaMarat\Documents\SE-LAB"
+C:\Users\MaMarat\Documents\SE-LAB> 
 ```
-### Vraag 1.6 - (optioneel) Verander de kleuren van de uitvoer, bv. groene tekst op zwarte achtergrond. Tip: Gebruik de commandolijst rechts om de juiste syntax te bepalen.
+
+### Vraag 5 - Tik `.\Installatie.ps1` en druk ENTER om het script uit te voeren.
+
+```bash
+C:\Users\MaMarat\Documents\SE-LAB> .\Installatie.ps1
+Hello world
+[...]
+
+C:\Users\MaMarat\Documents\SE-LAB> 
+```
+
+### Vraag 6 - (optioneel) Verander de kleuren van de uitvoer, bv. groene tekst op zwarte achtergrond. Tip: Gebruik de commandolijst rechts om de juiste syntax te bepalen.
+
 ```PowerShell
 write-host -BackgroundColor green -ForegroundColor Black "Hello world"
 ```
@@ -39,6 +53,7 @@ write-host -BackgroundColor green -ForegroundColor Black "Hello world"
 | Een geïnstalleerde applicatie verwijderen                               | choco uninstall <package_naam> |
 
 ## Evaluatiecriteria
+
 Toon na afwerken het resultaat aan je begeleider. Elk teamlid moet in staat zijn om het resultaat te demonstreren bij de oplevering van deze opdracht! Criteria voor beoordeling:
 
 - [x] Je hebt een package manager voor jouw besturingssysteem geïnstalleerd.

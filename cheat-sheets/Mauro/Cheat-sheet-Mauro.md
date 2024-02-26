@@ -40,3 +40,8 @@ Simpele git workflow voor projecten met een enkele branch en zonder contributors
 | Alle packages die nu geïnstalleerd zijn bijwerken tot de laatste versie | choco upgrade all<br>          |
 | Via de console een package opzoeken                                     | choco search zoekterm          |
 | Een geïnstalleerde applicatie verwijderen                               | choco uninstall <package_naam> |
+## PowerShell
+
+| Taak                         | Commando                                  |
+| ---------------------------- | ----------------------------------------- |
+| Geef het script meer rechten | Set-ExecutionPolicy Bypass -Scope Process |
