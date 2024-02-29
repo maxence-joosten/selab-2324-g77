@@ -10,12 +10,12 @@
 
 ## Scripts
 
-|Taak                                                                   |Commando                                       |
-|-----------------------------------------------------------------------|-----------------------------------------------|
-|Bypass script blokkering                                               |Set-ExecutionPolicy Bypass -Scope Process      |
-|Tekst                                                                  |write-host "message"                           |
-|Kleur veranderen (single)                                              |-ForegroundColor Green -BackgroundColor "color"|
-|Kleur veranderen                                                       |$psISE.Options."option" = "color"              |
+| Taak                                                                    | Commando                                          |
+| ----------------------------------------------------------------------- | ------------------------------------------------- |
+| Bypass script blokkering                                                | Set-ExecutionPolicy Bypass -Scope Process         |
+| Tekst                                                                   | write-host "message"                              |
+| Kleur veranderen (single)                                               | -ForegroundColor "color" -BackgroundColor "color" |
+| Kleur veranderen                                                        | $psISE.Options."option" = "color"                 |
 
 | Options                                                                 |
 | ----------------------------------------------------------------------- |
