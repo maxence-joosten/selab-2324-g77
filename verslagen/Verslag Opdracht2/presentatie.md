@@ -20,3 +20,10 @@ footer: SQL
 text here
 
 > note here
+
+---
+```css
+.clase {
+    color: red;
+}
+```
