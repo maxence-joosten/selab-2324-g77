@@ -1,16 +1,19 @@
-
 # Verslag: SUBJECT
 
 > Naam verslaggever: Xander Beuselinck
+
 ## Beschrijving
 
 De opdracht hield in dat we instalatie van software automatiseren aan de hand van een script en een package-manager.
+
 ## Antwoorden op de vragen in de opdracht
 
 Voeg hieronder de antwoorden op de vragen in de opdracht toe. Gebruik voor elke vraag een aparte sectie.
+
 ### Vraag 1 - De PowerShell-prompt toont de map waar we ons nu bevinden. Wat is de naam van deze directory?
 
 we bevinden ons in `PS C:\WINDOWS\system32 ` dit is de Windows-SSD directory.
+
 ### Vraag 2 - In welke map heb je het script bewaard?
 
 Het Instalatie.ps1 script werd bewaard in de map SELab. de map bevindt zich in huidig pad: `"C:\Users\Xander\OneDrive - Hogeschool Gent\Documents\SELab\Installatie.ps1" `.
@@ -30,6 +33,7 @@ Het instalatie.ps1 script werd opgeslaan in SELab map die zich bevindt in het pa
 ### Vraag 6 - Verander de kleuren van de uitvoer, bv. groene tekst op zwarte achtergrond. Tip: Gebruik de commandolijst rechts om de juiste syntax te bepalen.
 
 `Set-ConsoleForeground -ForeColor green`
+
 ## Evaluatiecriteria
 
 Toon na afwerken het resultaat aan je begeleider. Elk teamlid moet in staat zijn om het resultaat te demonstreren bij de oplevering van deze opdracht! Criteria voor beoordeling:
@@ -43,6 +47,7 @@ Toon na afwerken het resultaat aan je begeleider. Elk teamlid moet in staat zijn
 ## Problemen en oplossingen
 
 Ik had problemen met het aanpassen van de console kleuren, maar dit was snel opgelost met een goede google search , het vinden van sommige commando's om het script bepaalde zaken uit te doen voeren was ook wel een drempel Microsoft heeft zijn eigen syntax en in het begin van opdracht 1 was enkel syntax van linux systemen mij bekend.
+
 ### Probleem 1 - Korte beschrijving van het probleem
 
 Probleem 1 was het aanpassen van kleur ik kwam vaak deze error tegen toen ik dit probeerde.
@@ -63,7 +68,7 @@ At line:1 char:1
 
     + FullyQualifiedErrorId : CommandNotFoundException
 
-  
+
 
 ```
 
@@ -105,18 +110,19 @@ Ik zou het samenwerken wat anders aanpakken nu hebben we allemaal de opdracht in
 
 ## Bronnen
 
--   https://community.chocolatey.org/packages/
+- https://community.chocolatey.org/packages/
 
--   https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/controls/control-form-detail
+- https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/controls/control-form-detail
 
--   https://gist.github.com/yunga/99d04694e2466e017c5502d7c828d4f4
+- https://gist.github.com/yunga/99d04694e2466e017c5502d7c828d4f4
 
--   https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
 ## cheat sheat
 
-| syntax          |           wat doet het? |
-| --------------- | ----------------------: |
-| choco install   |                 install |
-| choco list      |          toont packages |
-| choco info      | informatie over package |
-| choco uninstall |               uninstall |
+| syntax           |           wat doet het? |
+| ---------------- | ----------------------: |
+| choco install    |                 install |
+| choco list       |          toont packages |
+| choco info       | informatie over package |
+| choco uninstall  |               uninstall |
