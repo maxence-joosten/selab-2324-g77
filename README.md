@@ -20,10 +20,10 @@ Lijst alle teamleden op met hun GitHub gebruikersnaam:
 
 Lijst alle teamleden op met hun GitHub gebruikersnaam:
 
-| Verslag   | GitHub username                                       |
-| :-------- | :---------------------------------------------------- |
+| Verslag   |                   Naam verslaggever                   |
+| :-------- | :---------------------------------------------------: |
 | Verslag 1 | [Maxence Joosten](https://github.com/maxence-joosten) |
-| Verslag 2 | [Mauro Maratta](https://github.com/MaSeraphina)       |
+| Verslag 2 |    [Mauro Maratta](https://github.com/MaSeraphina)    |
 
 ## Inhoudstafel
 
