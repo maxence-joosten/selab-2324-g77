@@ -72,6 +72,8 @@ Voor mij liep deze opdracht vrij vlotjes. We hadden in de les Operating Systems 
 
 > Robin
 
+De opdracht zelf was op zich niet al te moeilijk, toch heb ik enkele uren vastgezeten met het aanmaken van de netwerkadapters. Door een serie aan domme fouten kreeg i dus de ethernet interface van enp0s8 maar niet te zien. Uiteindelijk heb ik heel het stappenplan opnieuw gevolgd (incl. een volledige reinstall van ubuntu) en werkte alles. Volgende keer ga ik toch aandachtiger zijn tijdens het overlopen van de opdracht.
+
 > Xander
 
 ## Bronnen
