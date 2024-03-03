@@ -98,5 +98,6 @@ sudo ss -tlnp
 
 ---
 
+![alt text](image-1.png)
 ![alt text](<Ubuntu Server (SQL JUST INSTALLED) [Running] - Oracle VM VirtualBox 03_03_2024 13_57_57.png>)
 ![alt text](<Ubuntu Server (SQL JUST INSTALLED) [Running] - Oracle VM VirtualBox 03_03_2024 14_04_38.png>)
