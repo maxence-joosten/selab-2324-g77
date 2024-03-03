@@ -8,13 +8,22 @@ Het doel van deze opdrachten is om vertrouwd te raken met concepten zoals Linux,
 
 Lijst alle teamleden op met hun GitHub gebruikersnaam:
 
-| Name                      | GitHub username                                         |
-| :------------------------ | :------------------------------------------------------ |
-| Mauro Maratta (202396569) | [MaSeraphina](https://github.com/MaSeraphina)           |
-| Xander Beuselinck         | [xanderbeuselinck](https://github.com/xanderbeuselinck) |
-| Maxence Joosten           | [maxence-joosten](https://github.com/maxence-joosten)   |
-| Robin Sonck               | [RobinS45](https://github.com/RobinS45)                 |
-| Thomas Lambrecht          | [LambrechtThomas](https://github.com/LambrechtThomas)   |
+| Name              | GitHub username                                         |
+| :---------------- | :------------------------------------------------------ |
+| Mauro Maratta     | [MaSeraphina](https://github.com/MaSeraphina)           |
+| Xander Beuselinck | [xanderbeuselinck](https://github.com/xanderbeuselinck) |
+| Maxence Joosten   | [maxence-joosten](https://github.com/maxence-joosten)   |
+| Robin Sonck       | [RobinS45](https://github.com/RobinS45)                 |
+| Thomas Lambrecht  | [LambrechtThomas](https://github.com/LambrechtThomas)   |
+
+## Verslagen
+
+Lijst alle teamleden op met hun GitHub gebruikersnaam:
+
+| Verslag   | GitHub username                                       |
+| :-------- | :---------------------------------------------------- |
+| Verslag 1 | [Maxence Joosten](https://github.com/maxence-joosten) |
+| Verslag 2 | [Mauro Maratta](https://github.com/MaSeraphina)       |
 
 ## Inhoudstafel
 
@@ -25,7 +34,11 @@ Lijst alle teamleden op met hun GitHub gebruikersnaam:
 
 ## Help, ik heb een mac
 
-De nieuwe Apple Silicon processoren zorgen tijdens de opdrachten van System Engineering Lab  wel eens voor problemen aangezien deze gebruik maken van de ARM-architectuur. De virtuele machines die o.a. voor dit OLOD gebruikt worden, gebruiken deze architectuur niet. Hierdoor is het iets meer werk om de virtuele machines aan te maken, maar het is wel mogelijk.
+<details>
+
+<summary> Info here... </summary>
+
+De nieuwe Apple Silicon processoren zorgen tijdens de opdrachten van System Engineering Lab wel eens voor problemen aangezien deze gebruik maken van de ARM-architectuur. De virtuele machines die o.a. voor dit OLOD gebruikt worden, gebruiken deze architectuur niet. Hierdoor is het iets meer werk om de virtuele machines aan te maken, maar het is wel mogelijk.
 
 Er zijn drie opties om virtuele machines aan te maken op macbooks met Apple Silicon:
 
@@ -36,9 +49,16 @@ Er zijn drie opties om virtuele machines aan te maken op macbooks met Apple Sili
   - Dit is geen gratis software en kost wel wat.
   - Er geldt 50% korting voor studenten: <https://www.parallels.com/nl/landingpage/pd/education/>.
 - VirtualBox for ARM: <https://www.virtualbox.org/wiki/Testbuilds>
+
   - In de toekomst zou dit de voorkeursoplossing moeten worden, maar momenteel is deze nog onstabiel.
 
-### Ubuntu draaien in UTM
+</details>
+
+## Ubuntu draaien in UTM
+
+<details>
+
+<summary> Info here... </summary>
 
 1. Download het ISO-bestand voor Ubuntu Desktop LTS voor ARM architecturen via <https://cdimage.ubuntu.com/jammy/daily-live/pending/>.
 2. Volg de stappen uit de documentatie van UTM onder **Creating a new virtual machine**: <https://docs.getutm.app/guides/ubuntu/#creating-a-new-virtual-machine>.
@@ -46,8 +66,16 @@ Er zijn drie opties om virtuele machines aan te maken op macbooks met Apple Sili
    - Stap 7 mag je overslaan.
 3. Na het doorlopen van deze 9 stappen, heb je een werkende Ubuntu Desktop virtuele machine.
 
+</details>
+
 ## License information
+
+<details>
+
+<summary> License here... </summary>
 
 The assignment and all documentation are shared under the [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/) license. All code (both scaffolding and testing code) is subject to the MIT license. See [LICENSE.md](LICENSE.md) for details.
 
 Questions and remarks about this assignment are welcome (use the Issues), as well as improvements, fixes, etc. (you can submit a Pull Request). However, technical support on getting the setup working, or on solving the assignment is reserved to students take the courses for which it was developed.
+
+</details>
