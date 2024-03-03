@@ -53,15 +53,9 @@ footer: Opdracht 2 - Een databankserver opzetten in een virtuele machine
 
 ---
 
-# Virtuele machine aanmaken `osboxes.org`
-
-<!-- GEEN IDEE HOE DIT MOET, IK HEB DIT NIET GEMAAKT OP DEZE MANIER -->
-
----
-
 # Virtuele machine aanmaken `ubuntu.com .iso`
 
-1. Dowloading `Ubuntu 22.04.iso` van **Ubuntu.org/download/desktop**
+1. Dowload `Ubuntu 22.04.iso` van **Ubuntu.org/download/desktop** of via **osboxes.org/ubuntu/**
 2. Maak een nieuwe Virtual Box aan met min. `2GB RAM`, voldoende opslag en alle andere mogelijke instellingen.
 3. De stappen van de installatie volgen
    Done
@@ -201,7 +195,7 @@ Een aantal optionele, maar mogelijks handige instellingen om aan te passen in je
 # Mogelijke uitbreidingen `#1`
 
 > Schakel de screen lock uit.
-> `Maxence`, `Mauro`
+> `Maxence`, `Mauro`, `Thomas`
 
 ![alt text](image-7.png)
 
@@ -210,7 +204,7 @@ Een aantal optionele, maar mogelijks handige instellingen om aan te passen in je
 # Mogelijke uitbreidingen `#2`
 
 > Laat de gebruiker **osboxes.org** automatisch inloggen.
-> `Maxence`, `Mauro`
+> `Maxence`, `Mauro`, `Thomas`
 
 ![alt text](image-6.png)
 
@@ -219,7 +213,7 @@ Een aantal optionele, maar mogelijks handige instellingen om aan te passen in je
 # Mogelijke uitbreidingen `#3`
 
 > Installeer handige applicaties zoals Visual Studio Code.
-> `Maxence`, `Mauro`
+> `Maxence`, `Mauro`, `Thomas`
 
 ![alt text](image-8.png)
 
@@ -228,7 +222,7 @@ Een aantal optionele, maar mogelijks handige instellingen om aan te passen in je
 # Mogelijke uitbreidingen `#4`
 
 > Pas het wachtwoord van de gebruiker **osboxes** aan.
-> `Maxence`, `Mauro`
+> `Maxence`, `Mauro`, `Thomas`
 
 ![alt text](image-9.png)
 
@@ -237,7 +231,7 @@ Een aantal optionele, maar mogelijks handige instellingen om aan te passen in je
 # Mogelijke uitbreidingen `#5`
 
 > Probeer of je met FileZilla/Cyberduck bestanden van/naar de VM kan kopiëren. Dit zal extra configuratie vereisen.
-> `Maxence`, `Mauro`
+> `Maxence`, `Mauro`, `Thomas`
 
 ![alt text](image-1.png)
 ![alt text](image-10.png)
@@ -247,6 +241,6 @@ Een aantal optionele, maar mogelijks handige instellingen om aan te passen in je
 # Mogelijke uitbreidingen `#6`
 
 > Configureer de VM zodat je via SSH kan inloggen vanop je fysieke systeem (via een wachtwoord en/of public/private keypair).
-> `Maxence`, `Mauro`
+> `Maxence`, `Mauro`, `Thomas`
 
 ![sera](sera@computer_%20~%2003_03_2024%2015_14_35.png)
