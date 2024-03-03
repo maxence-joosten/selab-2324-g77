@@ -2,7 +2,9 @@
 
 > Student: Maxence
 
-## Opdracht 2: Basics bij set-up
+## Opdracht 2: Een databankserver opzetten in een virtuele machine
+
+### Basics bij set-up
 
 | Task                                             | Commando                                                                                   |
 | ------------------------------------------------ | ------------------------------------------------------------------------------------------ |
@@ -55,7 +57,9 @@
 | Automatische log-in activeren     | System tray > Settings > Users > Automatic Login        |
 | Schakel de screen lock uit        | System tray > Settings > Power > Screen Blank > `Never` |
 
-## Opdracht 1: Chocolatey Cheat-sheet
+## Opdracht 1: Package Manager & Markdown
+
+### Chocolatey Cheat-sheet
 
 | Task                                                                    | Commando                                     |
 | :---------------------------------------------------------------------- | :------------------------------------------- |
@@ -65,9 +69,9 @@
 | Een geïnstalleerde applicatie verwijderen                               | `choco uninstall [insert package naam hier]` |
 | Scripts enabelen                                                        | `Set-ExecutionPolicy Bypass -Scope Process`  |
 
-## Opdracht 1: Markdown Cheat-sheet
+### Markdown Cheat-sheet
 
-### Tekst opmaken
+#### Tekst opmaken
 
 | Task           | Commando       |
 | -------------- | -------------- |
@@ -77,14 +81,14 @@
 | Vet en cursief | `***tekst***`  |
 | Onderstrepen   | `<u>tekst</u>` |
 
-### Code
+#### Code
 
 | Task        | Commando                                |
 | ----------- | --------------------------------------- |
 | Inline code | `` `code` ``                            |
 | Codeblok    | \```[programmeertaal]<br> code <br>\``` |
 
-### Lijsten
+#### Lijsten
 
 | Task                | Commando                         |
 | ------------------- | -------------------------------- |
@@ -92,7 +96,7 @@
 | Genummerde lijst    | `1. item 1`<br>`2. item 2`       |
 | Checklist           | `- [x] taak 1`<br>`- [ ] taak 2` |
 
-### Links en afbeeldingen
+#### Links en afbeeldingen
 
 | Task              | Commando                    |
 | ----------------- | --------------------------- |
@@ -100,7 +104,7 @@
 | Automatische link | `<https://www.example.com>` |
 | Afbeelding        | `![alt-tekst](url)`         |
 
-### Tabellen
+#### Tabellen
 
 | Task            | Commando                                                                                                                           |
 | --------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
