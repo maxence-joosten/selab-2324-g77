@@ -51,9 +51,9 @@ footer: Opdracht 2 - Een databankserver opzetten in een virtuele machine
    Naam: Virtualbox Host-Only Ethernet Adapter
    ```
 
-<!-- ---
+---
 
-# Virtuele machine aanmaken `osboxes.org` -->
+# Virtuele machine aanmaken `osboxes.org`
 
 <!-- GEEN IDEE HOE DIT MOET, IK HEB DIT NIET GEMAAKT OP DEZE MANIER -->
 
@@ -95,3 +95,8 @@ Controleer welke netwerkpoorten in gebruik zijn en stel vast dat MySQL enkel lui
 ```bash
 sudo ss -tlnp
 ```
+
+---
+
+![alt text](<Ubuntu Server (SQL JUST INSTALLED) [Running] - Oracle VM VirtualBox 03_03_2024 13_57_57.png>)
+![alt text](<Ubuntu Server (SQL JUST INSTALLED) [Running] - Oracle VM VirtualBox 03_03_2024 14_04_38.png>)
