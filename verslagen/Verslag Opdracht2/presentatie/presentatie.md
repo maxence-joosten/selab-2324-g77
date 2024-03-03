@@ -234,11 +234,12 @@ Een aantal optionele, maar mogelijks handige instellingen om aan te passen in je
 
 ---
 
-<<<<<<< Updated upstream:verslagen/Verslag Opdracht2/presentatie.md
 ![alt text](image-1.png)
 ![alt text](<Ubuntu Server (SQL JUST INSTALLED) [Running] - Oracle VM VirtualBox 03_03_2024 13_57_57.png>)
 ![alt text](<Ubuntu Server (SQL JUST INSTALLED) [Running] - Oracle VM VirtualBox 03_03_2024 14_04_38.png>)
-=======
+
+---
+
 # Mogelijke uitbreidingen `#5`
 
 > Probeer of je met FileZilla/Cyberduck bestanden van/naar de VM kan kopiëren. Dit zal extra configuratie vereisen.
@@ -255,4 +256,3 @@ Een aantal optionele, maar mogelijks handige instellingen om aan te passen in je
 > `Maxence`, `Mauro`
 
 ![sera](sera@computer_%20~%2003_03_2024%2015_14_35.png)
->>>>>>> Stashed changes:verslagen/Verslag Opdracht2/presentatie/presentatie.md
