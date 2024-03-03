@@ -60,6 +60,8 @@ Al laatste gaan we de uitbreidingen overlopen.
 
 > Maxence
 
+Ik vond het een super leerzame, en toch ook wel toffe opdracht. Het was soms wel wat sukkelen om de server aan de praat te krijgen (bvb. de NAT adapter bij het aanmaken #1 werd en #2 de oude was, wat niet heel logisch is). Het spelen met ssh om dan uiteindelijk FileZilla aan de praat te krijgen was ook heel tof. Je kan gewoon via je terminal buiten de virtuele machine de VM rebooten en afsluiten! Of zelfs apps installeren! Zeer tof, en handig voor later.
+
 > Thomas
 
 > Robin
