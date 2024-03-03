@@ -68,7 +68,8 @@ Ook de extra opdrachtjes waren aangenaam, deze waren niet zo heel moeilijk, maar
 > Maxence
 
 > Thomas
-Voor mij liep deze opdracht vrij vlotjes. We hadden in de les Operating Systems al eens een Virtual Box moeten opzetten. Deze was dan ook een Ubuntu operating system. De databank zelf was ook wel interessant. Voor mij was het interessantste nu eenmaal de uitbreiding.  Hoe je van je host systeem een connectie legt met een server, in dit geval de MySql-server op de virual box. In het algemeen was deze opdracht interessant en leerrijk. 
+
+Voor mij liep deze opdracht vrij vlotjes. We hadden in de les Operating Systems al eens een Virtual Box moeten opzetten. Deze was dan ook een Ubuntu operating system. De databank zelf was ook wel interessant. Voor mij was het interessantste nu eenmaal de uitbreiding. Hoe je van je host systeem een connectie legt met een server, in dit geval de MySql-server op de virual box. In het algemeen was deze opdracht interessant en leerrijk.
 
 > Robin
 
