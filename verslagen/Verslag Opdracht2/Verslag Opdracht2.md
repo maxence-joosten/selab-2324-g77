@@ -58,6 +58,13 @@ Al laatste gaan we de uitbreidingen overlopen.
 
 > Mauro
 
+Deze opdracht was net als de vorige opdracht ook wel leuk, het enige wat ik anders heb gedaan dan de opdracht zelf is een .iso-file van ubuntu.com halen en niet van OS-boxes.
+Persoonlijk vind ik dat het instaleren van een iso niet moeilijk is. Het wordt (voor Ubuntu) elke versie gemakkelijker en gemakkelijker en je hebt meer beginnerscontrole over wat je doet.
+
+Het instaleren van de MySql server was wel iets moeilijker, hierbij had ik enkele problemen en moest ik enkele zaken herhalen en opzoeken. Zeker niet het moeilijkste, maar zonder een beetje tijd en moeite had het niet gelukt geweest.
+
+Ook de extra opdrachtjes waren aangenaam, deze waren niet zo heel moeilijk, maar namen wel een beetje tijd in beslag. Zelf vond ik dat het installeren van FileZilla een verplichte opdracht had kunnen zijn, net als een SSH verbinding, omdat je deze altijd kan gebruiken. (zowel op toekomstig werk als op een eigen server)
+
 > Maxence
 
 > Thomas
