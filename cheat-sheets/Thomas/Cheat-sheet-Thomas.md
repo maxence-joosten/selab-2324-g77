@@ -8,6 +8,8 @@
 | Een geïnstalleerde applicatie verwijderen                               | choco uninstall "name" |
 | Een  applicatie installeren                                             | choco install "name"   |
 
+
+
 ## Scripts / PowerShell
 
 | Taak                              | Commando                                          |
