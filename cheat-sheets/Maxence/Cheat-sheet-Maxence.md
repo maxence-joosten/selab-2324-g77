@@ -2,7 +2,64 @@
 
 > Student: Maxence
 
-## Chocolatey Cheat-sheet
+## Opdracht 2: Een databankserver opzetten in een virtuele machine
+
+### Basics bij set-up
+
+| Task                                             | Commando                                                                                   |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| Waar zie je het IP-adres van interface 2?        | System tray > Settings > Network > `enp0s3`                                                |
+| Is er communicatie met de server?                | `ping 192.168.56.2`                                                                        |
+| Vast IP-adres toekennen                          | instellingen van interface `enp0s3` > IPv4 > (hier vul je dan de settings in vanop de Git) |
+| De instellingen van de netwerkkaart(en) bekijken | `ifconfig` of `ip a`                                                                       |
+| Nieuwste info van alle pakketten ophalen         | `sudo apt update`                                                                          |
+| Update alle pakketten                            | `sudo apt upgrade`                                                                         |
+| VM uitzetten                                     | `sudo poweroff`                                                                            |
+| VM restarten                                     | `sudo reboot`                                                                              |
+
+### MySQL Install Cheat-sheet
+
+| Task                                                                | Commando                           |
+| ------------------------------------------------------------------- | ---------------------------------- |
+| Installeren van MySQL                                               | `sudo apt install -y mysql-server` |
+| Restarten van de MySQL service                                      | `sudo systemctl restart mysql`     |
+| Controlleren van status (van de mysql server)                       | `systemctl status mysql`           |
+| Checken welke poorten gebruikt worden (lokaal)                      | `sudo ss -tlnp`                    |
+| Config file editen om de waarde van **blind-address** aan te passen | `sudo nano mysqld.cnf`             |
+
+### Debuggen en troubleshooting
+
+| Task                                                                                                                                               | Commando                                                                                                                                |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li>Tonen op welke TCP poorten en IP-adressen geluisterd worden</li><li>Tonen welke bestanden het process open heeft (bv. error log)</li></ul> | `sudo lsof -p [PID]` (Het PID vind je in `systemctl status mysql`)                                                                      |
+| Systeemlogs bekijken                                                                                                                               | `journalctl`                                                                                                                            |
+| Controlleren van status (van de mysql server)                                                                                                      | `systemctl status mysql`                                                                                                                |
+| Controleren of poort 3306 beschrikbaar is                                                                                                          | <ul><li>`nc localhost 3306`</li><li>`telnet localhost 3306`</li><li>`wget localhost:3306`</li><li>`telnet 192.168.56.20 3306`</li></ul> |
+
+### Configuratie van de databank
+
+| Task                                          | Commando                                                                            |
+| --------------------------------------------- | ----------------------------------------------------------------------------------- |
+| Openen van MySQL console                      | `sudo mysql`                                                                        |
+| Rootgebruiker een wachtwoord toekennen        | `alter user 'root'@'localhost' identified with mysql_native_password by 'letmein';` |
+| Admingebruiker aanmaken                       | `create user 'admin'@'%' identified by 'letmein';`                                  |
+| Alle privileges geven aan deze Admingebruiker | `grant all privileges on *.* to 'admin'@'%' with grant option;`                     |
+| Uit de MySQL console gaan                     | `exit;`                                                                             |
+
+### Uitbreiding
+
+| Task                              | Commando                                                |
+| --------------------------------- | ------------------------------------------------------- |
+| ssh installeren                   | `sudo apt install openssh-server`                       |
+| Restarten van de ssh service      | `sudo service ssh restart`                              |
+| Controlleren van status (van ssh) | `sudo service ssh status`                               |
+| Wachtwoord aanpassen              | System tray > Settings > Users > Password               |
+| Automatische log-in activeren     | System tray > Settings > Users > Automatic Login        |
+| Schakel de screen lock uit        | System tray > Settings > Power > Screen Blank > `Never` |
+
+## Opdracht 1: Package Manager & Markdown
+
+### Chocolatey Cheat-sheet
 
 | Task                                                                    | Commando                                     |
 | :---------------------------------------------------------------------- | :------------------------------------------- |
@@ -12,9 +69,9 @@
 | Een geïnstalleerde applicatie verwijderen                               | `choco uninstall [insert package naam hier]` |
 | Scripts enabelen                                                        | `Set-ExecutionPolicy Bypass -Scope Process`  |
 
-## Markdown Cheat-sheet
+### Markdown Cheat-sheet
 
-### Tekst opmaken
+#### Tekst opmaken
 
 | Task           | Commando       |
 | -------------- | -------------- |
@@ -24,14 +81,14 @@
 | Vet en cursief | `***tekst***`  |
 | Onderstrepen   | `<u>tekst</u>` |
 
-### Code
+#### Code
 
 | Task        | Commando                                |
 | ----------- | --------------------------------------- |
 | Inline code | `` `code` ``                            |
 | Codeblok    | \```[programmeertaal]<br> code <br>\``` |
 
-### Lijsten
+#### Lijsten
 
 | Task                | Commando                         |
 | ------------------- | -------------------------------- |
@@ -39,7 +96,7 @@
 | Genummerde lijst    | `1. item 1`<br>`2. item 2`       |
 | Checklist           | `- [x] taak 1`<br>`- [ ] taak 2` |
 
-### Links en afbeeldingen
+#### Links en afbeeldingen
 
 | Task              | Commando                    |
 | ----------------- | --------------------------- |
@@ -47,7 +104,7 @@
 | Automatische link | `<https://www.example.com>` |
 | Afbeelding        | `![alt-tekst](url)`         |
 
-### Tabellen
+#### Tabellen
 
 | Task            | Commando                                                                                                                           |
 | --------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
