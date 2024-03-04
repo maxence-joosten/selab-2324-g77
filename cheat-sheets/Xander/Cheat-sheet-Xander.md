@@ -1,4 +1,16 @@
 >Student: Xander Beuselinck 
+## cheat-sheet virtualbox/mysql
+
+| taak                                |                                                               Commando |
+| ----------------------------------- | ---------------------------------------------------------------------: |
+| bijwerken software                  |                                 <br>```apt update``` ```apt upgrade``` |
+| super user privilege                |                                          <br>```  sudo [commando]  ``` |
+| gast os finetunen voor vbox upgrade | <br>```sudo apt install build-essential dkms linux-headers-generic ``` |
+| uitvoeren van guest-editions iso    |                                         <br>```sudo rcvboxadd setup``` |
+| privileges geven mysql              |    ```grant all privileges on *.* to 'admin'@'%' with grant option;``` |
+| mysql openen                        |                                                ```my sql -u root -p``` |
+
+
 ## cheat-sheet Chocolatery
 
 | taak                     |                     Commando |

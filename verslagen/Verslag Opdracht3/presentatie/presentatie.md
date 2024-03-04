@@ -1,6 +1,10 @@
 ---
 marp: true
 class: invert
+<<<<<<< Updated upstream:verslagen/Verslag Opdracht3/presentatie/presentatie.md
+=======
+footer: Opdracht 2
+>>>>>>> Stashed changes:verslagen/Verslag Opdracht2/presentatie.md
 ---
 
 <style>
