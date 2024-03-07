@@ -195,7 +195,7 @@ Een aantal optionele, maar mogelijks handige instellingen om aan te passen in je
 # Mogelijke uitbreidingen `#1`
 
 > Schakel de screen lock uit.
-> `Maxence`, `Mauro`, `Thomas`
+> `Maxence`, `Mauro`, `Thomas`, `Xander`
 
 ![alt text](image-7.png)
 
@@ -204,7 +204,7 @@ Een aantal optionele, maar mogelijks handige instellingen om aan te passen in je
 # Mogelijke uitbreidingen `#2`
 
 > Laat de gebruiker **osboxes.org** automatisch inloggen.
-> `Maxence`, `Mauro`, `Thomas`
+> `Maxence`, `Mauro`, `Thomas`, `Xander`
 
 ![alt text](image-6.png)
 
@@ -213,7 +213,7 @@ Een aantal optionele, maar mogelijks handige instellingen om aan te passen in je
 # Mogelijke uitbreidingen `#3`
 
 > Installeer handige applicaties zoals Visual Studio Code.
-> `Maxence`, `Mauro`, `Thomas`
+> `Maxence`, `Mauro`, `Thomas`, `Xander`
 
 ![alt text](image-8.png)
 
@@ -222,7 +222,7 @@ Een aantal optionele, maar mogelijks handige instellingen om aan te passen in je
 # Mogelijke uitbreidingen `#4`
 
 > Pas het wachtwoord van de gebruiker **osboxes** aan.
-> `Maxence`, `Mauro`, `Thomas`
+> `Maxence`, `Mauro`, `Thomas`, `Xander`
 
 ![alt text](image-9.png)
 
@@ -241,6 +241,6 @@ Een aantal optionele, maar mogelijks handige instellingen om aan te passen in je
 # Mogelijke uitbreidingen `#6`
 
 > Configureer de VM zodat je via SSH kan inloggen vanop je fysieke systeem (via een wachtwoord en/of public/private keypair).
-> `Maxence`, `Mauro`, `Thomas`
+> `Maxence`, `Mauro`, `Thomas`, `Xander`
 
 ![sera](sera@computer_%20~%2003_03_2024%2015_14_35.png)
