@@ -40,7 +40,7 @@ Er waren problemen met het maken van de 2de NAT adapter en om deze te koppelen m
 
 ### `2` FileZilla verbinden
 
-We wisten niet direct dat we standaardpoort nr _22_ was. Deze hebben we geprobeerd nadat we over het veld hoveren.
+We wisten niet direct dat we standaardpoort nr _22_ moesten gebruiken. Deze hebben we geprobeerd nadat we over het veld hoveren.
 
 ## Voorbereiding demo
 
@@ -79,7 +79,8 @@ De opdracht zelf was op zich niet al te moeilijk, toch heb ik enkele uren vastge
 
 > Xander
 
-de opdracht zelf was niet zo moeilijk, maar het mysql server deel was niet zo vlot verlopen. ik heb dan erna een ubuntu vm geinstaleerd die niet van osboxes was. dan stappenplan opnieuw gevolgd en het werkte. 
+de opdracht zelf was niet zo moeilijk, maar het mysql server deel was niet zo vlot verlopen. ik heb dan erna een ubuntu vm geinstaleerd die niet van osboxes was. dan stappenplan opnieuw gevolgd en het werkte.
+
 ## Bronnen
 
 - _Github Opdracht_ - https://github.com/HOGENT-SELab/selab-2324-g77/blob/main/opdrachten/2-databankserver.md
