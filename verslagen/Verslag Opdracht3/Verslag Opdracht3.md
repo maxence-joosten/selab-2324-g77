@@ -4,6 +4,8 @@
 
 ## Beschrijving
 
+In de vorige opdracht heb je een databaseserver opgezet in een virtuele machine (VM). In deze opdracht gaan we verder met die VM en gaan we deze ook uitrusten met een webserver. Het einddoel is om in een webbrowser op het hostsysteem de website te tonen die draait op je VM.
+
 ## Antwoorden op de vragen in de opdracht
 
 ### `1` Als je op de VM een website wil publiceren, dan moet je de HTML- en andere bestanden in de zogenaamde **Document Root** zetten. Wat is het pad naar deze map?
@@ -22,7 +24,85 @@ systemctl status ssh
 ss -lntu | grep ssh
 ```
 
+### `3` Welke netwerkpoort wordt gebruikt voor HTTPS? Met welk commando kan je dit opzoeken?
+
+
+```
+nmap -sT -p 443 <website>
+```
+Vervang `<website>` door de URL van de website die u wilt controleren. De uitvoer van de `nmap`-scan toont u of poort 443 open is op de website.
+
+
+```
+curl -I https://<website>
+```
+Vervang `<website>` door de URL van de website die u wilt controleren. De uitvoer van de `curl`-tool toont u de headers van de HTTP-respons. De `Server`-header toont u de software die de website bedient, en de `Port`-header toont u de poort die wordt gebruikt voor de verbinding.
+
+### `4.1` Bepaal welke netwerkpoorten gebruikt worden voor resp. SSH, HTTP, HTTPS en MySQL.
+
+- **SSH:** Standaard poort **22**.
+- **HTTP:** Standaard poort **80**.
+- **HTTPS:** Standaard poort **443**.
+- **MySQL:** Standaard poort **3306**.
+### `4.2` Zoek op hoe je via het commando **ufw** de firewall kan activeren en activeer deze.
+
+```
+sudo ufw enable
+```
+
+### `4.3` Zorg ervoor dat het verkeer op de poorten uit stap 1 door de firewall toegelaten wordt.
+
+```
+sudo ufw allow ssh
+sudo ufw allow http
+sudo ufw allow https
+sudo ufw allow mysql
+```
+
+### `4.4` Test of alle netwerkdiensten nog bereikbaar zijn vanop je fysieke systeem.
+
+- **SSH:** `ssh gebruiker@server_adres`
+- **HTTP:** Open een webbrowser en ga naar `http://server_adres`.
+- **HTTPS:** Open een webbrowser en ga naar `https://server_adres`.
+- **MySQL:** Maak verbinding met de MySQL-server met de MySQL Workbench.
+### `5.1` configuratie van fail2ban 
+
+```
+sudo nano /etc/fail2ban/jail.conf
+```
+
+## `5.2` - Zoek op wat je met de volgende parameters kan bereiken:
+
+## **Fail2ban parameters:**
+
+**1. findtime:**
+
+De `findtime`-parameter bepaalt de periode (in seconden) waarin fail2ban mislukte inlogpogingen detecteert. Als er binnen deze periode `maxretry` mislukte inlogpogingen zijn, wordt het IP-adres van de bron geblokkeerd.
+
+**2. maxretry:**
+
+De `maxretry`-parameter bepaalt het maximale aantal mislukte inlogpogingen dat is toegestaan ​​binnen de `findtime`-periode voordat het IP-adres van de bron wordt geblokkeerd.
+
+**3. bantime:**
+
+De `bantime`-parameter bepaalt de duur (in seconden) van de blokkade voor een IP-adres. Na de `bantime`-periode is verstreken, wordt het IP-adres automatisch gedeblokkeerd.
 ## Evaluatiecriteria
+
+- [ ] Je kan de VM opstarten.
+- [ ] Je kan met FileZilla (of een gelijkaardige applicatie) bestanden naar de Document Root van de webserver kopiëren.
+- [ ] De website is te zien in een webbrowser op het fysieke systeem via URL <https://192.168.56.20>.
+- [ ] Je kan aantonen dat de firewall actief is en dat de juiste poorten toegelaten zijn in de firewall:
+  - [ ] Je kan aantonen dat je nog steeds kan verbinden via SSH of SFTP.
+  - [ ] Je kan aantonen dat de MySQL Workbench nog steeds kan verbinden met de VM.
+  - [ ] Je kan aantonen dat je website nog steeds bereikbaar is.
+- [ ] Je kan aantonen dat fail2ban actief is.
+- [ ] Je kan de inhoud van het **jail.local** bestand tonen en toelichten.
+- [ ] Je kan met de **fail2ban** command line client aantonen dat de **findtime**, **maxretry** en **bantime** juist zijn ingesteld. Je kan deze begrippen toelichten.
+- [ ] Je kan aantonen dat je via SSH kan inloggen op de VM vanop jouw fysiek toestel en dat fail2ban jouw IP-adres blokkeert als je te veel foutieve inlogpogingen doet.
+- [ ] Je kan aantonen dat een IP-adres op de whitelist niet wordt geblokkeerd.
+- [ ] Je hebt een verslag gemaakt op basis van het template.
+- [ ] De cheat sheet werd aangevuld met nuttige commando's die je wenst te onthouden voor later.
+
 
 ## Problemen en oplossingen
 
@@ -32,4 +112,12 @@ ss -lntu | grep ssh
 
 ## Reflecties
 
+### Xander Beusellinck
+
+deze opdracht vond ik persoonlijk aangenamer dan de vorige omdat een server opzetten iets was dat ik altijd zou doen. Maar ik wist niet hoe maar dankzij deze opdracht kan dit nu wel. de opdracht was wel minder begleidend dan de vorige maar dit vind ik niet erg je leert meer uit opzoeken en proberen en bekijken van man-pages.
+
 ## Bronnen
+
+https://askubuntu.com/
+https://github.com/mej933/ShellScript
+https://github.com/learnwithjason/learnwithjason.dev
