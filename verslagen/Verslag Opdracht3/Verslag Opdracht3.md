@@ -26,16 +26,16 @@ ss -lntu | grep ssh
 
 ### `3` Welke netwerkpoort wordt gebruikt voor HTTPS? Met welk commando kan je dit opzoeken?
 
-
 ```
 nmap -sT -p 443 <website>
 ```
-Vervang `<website>` door de URL van de website die u wilt controleren. De uitvoer van de `nmap`-scan toont u of poort 443 open is op de website.
 
+Vervang `<website>` door de URL van de website die u wilt controleren. De uitvoer van de `nmap`-scan toont u of poort 443 open is op de website.
 
 ```
 curl -I https://<website>
 ```
+
 Vervang `<website>` door de URL van de website die u wilt controleren. De uitvoer van de `curl`-tool toont u de headers van de HTTP-respons. De `Server`-header toont u de software die de website bedient, en de `Port`-header toont u de poort die wordt gebruikt voor de verbinding.
 
 ### `4.1` Bepaal welke netwerkpoorten gebruikt worden voor resp. SSH, HTTP, HTTPS en MySQL.
@@ -44,6 +44,7 @@ Vervang `<website>` door de URL van de website die u wilt controleren. De uitvoe
 - **HTTP:** Standaard poort **80**.
 - **HTTPS:** Standaard poort **443**.
 - **MySQL:** Standaard poort **3306**.
+
 ### `4.2` Zoek op hoe je via het commando **ufw** de firewall kan activeren en activeer deze.
 
 ```
@@ -65,7 +66,8 @@ sudo ufw allow mysql
 - **HTTP:** Open een webbrowser en ga naar `http://server_adres`.
 - **HTTPS:** Open een webbrowser en ga naar `https://server_adres`.
 - **MySQL:** Maak verbinding met de MySQL-server met de MySQL Workbench.
-### `5.1` configuratie van fail2ban 
+
+### `5.1` configuratie van fail2ban
 
 ```
 sudo nano /etc/fail2ban/jail.conf
@@ -86,6 +88,7 @@ De `maxretry`-parameter bepaalt het maximale aantal mislukte inlogpogingen dat i
 **3. bantime:**
 
 De `bantime`-parameter bepaalt de duur (in seconden) van de blokkade voor een IP-adres. Na de `bantime`-periode is verstreken, wordt het IP-adres automatisch gedeblokkeerd.
+
 ## Evaluatiecriteria
 
 - [ ] Je kan de VM opstarten.
@@ -103,14 +106,33 @@ De `bantime`-parameter bepaalt de duur (in seconden) van de blokkade voor een IP
 - [ ] Je hebt een verslag gemaakt op basis van het template.
 - [ ] De cheat sheet werd aangevuld met nuttige commando's die je wenst te onthouden voor later.
 
-
 ## Problemen en oplossingen
 
-### Probleem 1 - Korte beschrijving van het probleem
+### Probleem 1 - Firewall inschakelen en SQL server doorlaten
+
+> Probleem van Mauro.
+
+Het lukte mij niet direct om te onderzoeken welke poorten er gebruikt werden voor SQL, Robin heeft deze dan gedeelt met de hele groep om het probleem op te lossen. Nadat ik wist wat de oplossing was heb ik het probleem nog eens opnieuw gedaan zodat ik zelf ook de correcte manier eens gevonden had.
 
 ## Voorbereiding demo
 
+> PPT NOG TE MAKEN
+
 ## Reflecties
+
+### Mauro
+
+Deze opdracht was leuk. We hebben onze VM van vorige week kunnen inzetten als Webserver voor deze week. Hierbij heb ik bijna alles bijgeleerd van de server opzetten zelf, het opzetten van de firewall en het opzetten van fail2ban.
+
+Deze opdracht was ook al meer zelf opzoeken, wat leuker is dan gewoon stappen volgen.
+
+Voor de uitbreiding heb ik ook een viertal extra services op mijn server laten draaien. Deze waren gemakkelijk te instaleren nudat ik weet hoe het moet.
+
+### Maxence
+
+### Thomas
+
+### Robin
 
 ### Xander Beusellinck
 
