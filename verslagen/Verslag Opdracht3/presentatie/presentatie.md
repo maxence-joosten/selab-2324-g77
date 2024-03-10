@@ -1,17 +1,15 @@
 ---
 marp: true
-class: invert
-<<<<<<< Updated upstream:verslagen/Verslag Opdracht3/presentatie/presentatie.md
-=======
-footer: Opdracht 2
->>>>>>> Stashed changes:verslagen/Verslag Opdracht2/presentatie.md
 ---
 
 <style>
     p, ul, li {font-size: 20px;}
     a{color:grey; text-decoration:underline;}
     a:hover{color:#eee;}
-    section{justify-content:flex-start;}
+    section{justify-content:flex-start;}blockquote{
+      color: #5865f2;
+      border-left: 0.25em solid #5865f2;
+   }
 </style>
 
 # Opdracht 3 - Een databankserver opzetten in een virtuele machine

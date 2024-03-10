@@ -1,7 +1,7 @@
 ---
 marp: true
-class: invert
-footer: Opdracht 2 - Een databankserver opzetten in een virtuele machine
+# class: invert
+# footer: Opdracht 2 - Een databankserver opzetten in een virtuele machine
 ---
 
 <style>
@@ -9,6 +9,10 @@ footer: Opdracht 2 - Een databankserver opzetten in een virtuele machine
     a{color:grey; text-decoration:underline;}
     a:hover{color:#eee;}
     section{justify-content:flex-start;}
+    blockquote{
+      color: #5865f2;
+      border-left: 0.25em solid #5865f2;
+   }
 </style>
 
 # Opdracht 2 - Een databankserver opzetten in een virtuele machine
