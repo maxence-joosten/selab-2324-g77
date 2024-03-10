@@ -18,12 +18,13 @@ Lijst alle teamleden op met hun GitHub gebruikersnaam:
 
 ## Verslagen
 
-Lijst alle teamleden op met hun GitHub gebruikersnaam:
+Lijst alle verslagen:
 
 | Verslag   |                   Naam verslaggever                   |
 | :-------- | :---------------------------------------------------: |
 | Verslag 1 | [Maxence Joosten](https://github.com/maxence-joosten) |
 | Verslag 2 |    [Mauro Maratta](https://github.com/MaSeraphina)    |
+| Verslag 3 |    [Xander Beuselinck](https://github.com/xanderbeuselinck)    |
 
 ## Inhoudstafel
 
