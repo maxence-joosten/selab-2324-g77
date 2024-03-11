@@ -1,4 +1,17 @@
 >Student: Xander Beuselinck 
+
+## cheat-sheet webserver
+
+| taak                             |                                    Commando |
+| -------------------------------- | ------------------------------------------: |
+| controleren of applicatie draait | <br>```systemctl status [naam programma]``` |
+| aanzetten firewall               |                  ``` sudo ufw enable```<br> |
+| verkeer toelaten via firewall    |                ```ufw allow [applicatie]``` |
+| configureren van bestanden       |           ```sudo nano [pad van bestand]``` |
+| is netwerk online                |             ```curl -I https://<website>``` |
+| herstarten van systeem           |                           ```sudo reboot``` |
+| systeemlogs bekijken             |                            ```journalctl``` |
+| installatie van apache2          |             ```sudo apt install apache2 ``` |
 ## cheat-sheet virtualbox/mysql
 
 | taak                                |                                                               Commando |
