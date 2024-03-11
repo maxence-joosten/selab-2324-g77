@@ -14,6 +14,15 @@ In de vorige opdracht heb je een databaseserver opgezet in een virtuele machine 
 /var/www/html
 ```
 
+### `1.2`-  Zal de Apache service opstarten (= "enabled") bij booten van de VM? Hoe controleer je dit?
+
+```
+sudo systemctl enable apache2.service
+```
+
+```
+sudo systemctl status apache2.service
+```
 ### `2` Met welke twee commando's kan je controleren of de SSH server draait, en op welke poort?
 
 ```
