@@ -125,7 +125,7 @@ Het lukte mij niet direct om te onderzoeken welke poorten er gebruikt werden voo
 
 ## Voorbereiding demo
 
-Powerpoint op (presentatie/presentatie.md)
+Powerpoint [hier](presentatie/presentatie.md)
 
 ## Reflecties
 
