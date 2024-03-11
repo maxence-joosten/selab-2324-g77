@@ -44,16 +44,18 @@
 | Blok citaat                 | > "message"       |
 ## Linux
 
-| Taak                         | Commando                      |
-| ---------------------------- | ----------------------------- |
-| Reboot                       | sudo reboot                   |
-| power off                    | sudo poweroff                 |
-| install                      | sudo apt install "name"       |
-| update                       | sudo apt update               |
-| netwerk poorten configuratie | sudo ss -tlnp                 |
-| status via system            | systemctl status "name"       |
-| enter sql data base          | sudo mysql                    |
-| restarten van service        | sudo systemctl restart "name" |
+| Taak                         | Commando                        |
+| ---------------------------- | ------------------------------- |
+| Reboot                       | sudo reboot                     |
+| power off                    | sudo poweroff                   |
+| install                      | sudo apt install "name"         |
+| update                       | sudo apt update                 |
+| netwerk poorten configuratie | sudo ss -tlnp                   |
+| status via system            | systemctl status "name"         |
+| enter sql data base          | sudo mysql                      |
+| restarten van service        | sudo systemctl restart "name"   |
+| user toevoegen aan groep     | sudo usermod -aG "Group" "user" |
+| verander toegangen           | sudo chmod -R                   |
 
 ## MySql
 
