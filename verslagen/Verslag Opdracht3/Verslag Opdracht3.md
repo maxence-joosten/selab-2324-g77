@@ -125,16 +125,14 @@ Het lukte mij niet direct om te onderzoeken welke poorten er gebruikt werden voo
 
 ## Voorbereiding demo
 
-> PPT NOG TE MAKEN
+Powerpoint op (presentatie/presentatie.md)
 
 ## Reflecties
 
 ### Mauro
 
 Deze opdracht was leuk. We hebben onze VM van vorige week kunnen inzetten als Webserver voor deze week. Hierbij heb ik bijna alles bijgeleerd van de server opzetten zelf, het opzetten van de firewall en het opzetten van fail2ban.
-
 Deze opdracht was ook al meer zelf opzoeken, wat leuker is dan gewoon stappen volgen.
-
 Voor de uitbreiding heb ik ook een viertal extra services op mijn server laten draaien. Deze waren gemakkelijk te instaleren nudat ik weet hoe het moet.
 
 ### Maxence
