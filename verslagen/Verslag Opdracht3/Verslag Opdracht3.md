@@ -100,20 +100,20 @@ De `bantime`-parameter bepaalt de duur (in seconden) van de blokkade voor een IP
 
 ## Evaluatiecriteria
 
-- [ ] Je kan de VM opstarten.
-- [ ] Je kan met FileZilla (of een gelijkaardige applicatie) bestanden naar de Document Root van de webserver kopiëren.
-- [ ] De website is te zien in een webbrowser op het fysieke systeem via URL <https://192.168.56.20>.
-- [ ] Je kan aantonen dat de firewall actief is en dat de juiste poorten toegelaten zijn in de firewall:
-  - [ ] Je kan aantonen dat je nog steeds kan verbinden via SSH of SFTP.
-  - [ ] Je kan aantonen dat de MySQL Workbench nog steeds kan verbinden met de VM.
-  - [ ] Je kan aantonen dat je website nog steeds bereikbaar is.
-- [ ] Je kan aantonen dat fail2ban actief is.
-- [ ] Je kan de inhoud van het **jail.local** bestand tonen en toelichten.
-- [ ] Je kan met de **fail2ban** command line client aantonen dat de **findtime**, **maxretry** en **bantime** juist zijn ingesteld. Je kan deze begrippen toelichten.
-- [ ] Je kan aantonen dat je via SSH kan inloggen op de VM vanop jouw fysiek toestel en dat fail2ban jouw IP-adres blokkeert als je te veel foutieve inlogpogingen doet.
-- [ ] Je kan aantonen dat een IP-adres op de whitelist niet wordt geblokkeerd.
-- [ ] Je hebt een verslag gemaakt op basis van het template.
-- [ ] De cheat sheet werd aangevuld met nuttige commando's die je wenst te onthouden voor later.
+- [x] Je kan de VM opstarten.
+- [x] Je kan met FileZilla (of een gelijkaardige applicatie) bestanden naar de Document Root van de webserver kopiëren.
+- [x] De website is te zien in een webbrowser op het fysieke systeem via URL <https://192.168.56.20>.
+- [x] Je kan aantonen dat de firewall actief is en dat de juiste poorten toegelaten zijn in de firewall:
+  - [x] Je kan aantonen dat je nog steeds kan verbinden via SSH of SFTP.
+  - [x] Je kan aantonen dat de MySQL Workbench nog steeds kan verbinden met de VM.
+  - [x] Je kan aantonen dat je website nog steeds bereikbaar is.
+- [x] Je kan aantonen dat fail2ban actief is.
+- [x] Je kan de inhoud van het **jail.local** bestand tonen en toelichten.
+- [x] Je kan met de **fail2ban** command line client aantonen dat de **findtime**, **maxretry** en **bantime** juist zijn ingesteld. Je kan deze begrippen toelichten.
+- [x] Je kan aantonen dat je via SSH kan inloggen op de VM vanop jouw fysiek toestel en dat fail2ban jouw IP-adres blokkeert als je te veel foutieve inlogpogingen doet.
+- [x] Je kan aantonen dat een IP-adres op de whitelist niet wordt geblokkeerd.
+- [x] Je hebt een verslag gemaakt op basis van het template.
+- [x] De cheat sheet werd aangevuld met nuttige commando's die je wenst te onthouden voor later.
 
 ## Problemen en oplossingen
 
