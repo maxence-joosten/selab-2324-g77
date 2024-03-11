@@ -1,6 +1,6 @@
-# Verslag: Opdracht 3 -
+# Verslag: Opdracht 3 - Webserver
 
-> Naam verslaggever: NAME
+> Naam verslaggever: Xander
 
 ## Beschrijving
 
