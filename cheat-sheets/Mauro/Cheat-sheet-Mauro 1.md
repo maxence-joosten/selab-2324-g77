@@ -4,7 +4,7 @@
 
 ## Basiscommando's
 
-| Task                                                   | Command                          |
+| Taak                                                   | Commando                         |
 | :----------------------------------------------------- | :------------------------------- |
 | Bekijk IP-adressen van alle netwerkadapters            | `ip a`                           |
 | Bekijk de status van een service                       | `systemctl status SERVICE`       |
@@ -15,15 +15,16 @@
 | Installeer een package (Ubuntu & Debian based)         | `sudo apt install PACKAGE`       |
 
 ## Git workflow
+
 Simpele git workflow voor projecten met een enkele branch en zonder contributors.
 
 | Task                                                               | Command                   |
 | :----------------------------------------------------------------- | :------------------------ |
-| Push lokale wijzigingen naar de remote repository                  | `git push`                |
-| Haal alle wijzigingen van de remote repository binnen in de lokale | `git pull`                |
 | Status van het huidige project                                     | `git status`              |
 | Selecteer te committen bestanden                                   | `git add FILE...`         |
 | Commit alle wijzigingen naar de lokale repository                  | `git commit -m 'MESSAGE'` |
+| Push lokale wijzigingen naar de remote repository                  | `git push`                |
+| Haal alle wijzigingen van de remote repository binnen in de lokale | `git pull`                |
 
 ## Checklist netwerkconfiguratie
 
@@ -32,9 +33,8 @@ Simpele git workflow voor projecten met een enkele branch en zonder contributors
 3. Is een DNS-server ingesteld? `cat /etc/resolv.conf`
 
 ## Chocolaty commando's
-Gemakkelijke commando's om om programma's te instaleren via Chocolaty
 
-| **Task**                                                                | **Commando**                   |
+| **Taak**                                                                | **Commando**                   |
 | ----------------------------------------------------------------------- | ------------------------------ |
 | Een lijst tonen van de software die nu geïnstalleerd is via Chocolatey  | choco list                     |
 | Alle packages die nu geïnstalleerd zijn bijwerken tot de laatste versie | choco upgrade all<br>          |
@@ -42,16 +42,12 @@ Gemakkelijke commando's om om programma's te instaleren via Chocolaty
 | Een geïnstalleerde applicatie verwijderen                               | choco uninstall <package_naam> |
 
 ## PowerShell
-Enkele vlugge weetjes om een startende PowerShell script te maken 
 
-| Keywords                                                             | Info                             |
-| -------------------------------------------------------------------- | -------------------------------- |
-| Set-ExecutionPolicy Bypass -Scope Process                            | Geef het script meer rechten     |
-| Write-host                                                           | Geen een zin weer in de terminal |
-| Write-host -background-color red -foreground-color green "text here" | // geef een beetje kleur weer    |
+| Taak                         | Commando                                  |
+| ---------------------------- | ----------------------------------------- |
+| Geef het script meer rechten | Set-ExecutionPolicy Bypass -Scope Process |
 
-## Basics bij set-up
-Enkele basis commando's en taken bij het opzetten van een (vm) server
+### Basics bij set-up
 
 | Task                                             | Commando                                                                                   |
 | ------------------------------------------------ | ------------------------------------------------------------------------------------------ |
@@ -64,8 +60,7 @@ Enkele basis commando's en taken bij het opzetten van een (vm) server
 | VM uitzetten                                     | `sudo poweroff`                                                                            |
 | VM restarten                                     | `sudo reboot`                                                                              |
 
-## MySQL Install Cheat-sheet
-Enkele basiscommando's bij het installeren van een MySQL server op een Ubuntu systeem
+### MySQL Install Cheat-sheet
 
 | Task                                                                | Commando                           |
 | ------------------------------------------------------------------- | ---------------------------------- |
@@ -75,7 +70,7 @@ Enkele basiscommando's bij het installeren van een MySQL server op een Ubuntu sy
 | Checken welke poorten gebruikt worden (lokaal)                      | `sudo ss -tlnp`                    |
 | Config file editen om de waarde van **blind-address** aan te passen | `sudo nano mysqld.cnf`             |
 
-## Debuggen en troubleshooting
+### Debuggen en troubleshooting
 
 | Task                                                                                                                                               | Commando                                                                                                                                |
 | -------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
@@ -84,7 +79,7 @@ Enkele basiscommando's bij het installeren van een MySQL server op een Ubuntu sy
 | Controlleren van status (van de mysql server)                                                                                                      | `systemctl status mysql`                                                                                                                |
 | Controleren of poort 3306 beschrikbaar is                                                                                                          | <ul><li>`nc localhost 3306`</li><li>`telnet localhost 3306`</li><li>`wget localhost:3306`</li><li>`telnet 192.168.56.20 3306`</li></ul> |
 
-## Configuratie van de databank
+### Configuratie van de databank
 
 | Task                                          | Commando                                                                            |
 | --------------------------------------------- | ----------------------------------------------------------------------------------- |
@@ -94,7 +89,7 @@ Enkele basiscommando's bij het installeren van een MySQL server op een Ubuntu sy
 | Alle privileges geven aan deze Admingebruiker | `grant all privileges on *.* to 'admin'@'%' with grant option;`                     |
 | Uit de MySQL console gaan                     | `exit;`                                                                             |
 
-## Uitbreiding
+### Uitbreiding
 
 | Task                              | Commando                                                |
 | --------------------------------- | ------------------------------------------------------- |
@@ -105,7 +100,19 @@ Enkele basiscommando's bij het installeren van een MySQL server op een Ubuntu sy
 | Automatische log-in activeren     | System tray > Settings > Users > Automatic Login        |
 | Schakel de screen lock uit        | System tray > Settings > Power > Screen Blank > `Never` |
 
-## Markdown Cheat-sheet
+## Opdracht 1: Package Manager & Markdown
+
+### Chocolatey Cheat-sheet
+
+| Task                                                                    | Commando                                     |
+| :---------------------------------------------------------------------- | :------------------------------------------- |
+| Een lijst tonen van de software die nu geïnstalleerd is via Chocolatey  | `choco list`                                 |
+| Alle packages die nu geïnstalleerd zijn bijwerken tot de laatste versie | `choco upgrade all`                          |
+| Via de console een package opzoeken                                     | `choco search [insert package naam hier]`    |
+| Een geïnstalleerde applicatie verwijderen                               | `choco uninstall [insert package naam hier]` |
+| Scripts enabelen                                                        | `Set-ExecutionPolicy Bypass -Scope Process`  |
+
+### Markdown Cheat-sheet
 
 #### Tekst opmaken
 
@@ -146,14 +153,3 @@ Enkele basiscommando's bij het installeren van een MySQL server op een Ubuntu sy
 | --------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | Tabel maken     | \| Header 1 \| Header 2 \|<br>\| --------- \| --------- \|<br>\| Row 1 Col 1 \| Row 1 Col 2 \|<br>\| Row 2 Col 1 \| Row 2 Col 2 \| |
 | Tabel uitlijnen | `:---` voor links, `---:` voor rechts, `:---:` voor gecentreerd                                                                    |
-
-
-## Apache2, fail2ban and firewall
-
-| Commands          | Tasks |
-| ----------------- | ----- |
-| sudo ufw allow __ |       |
-| sudo ufw deny __  |       |
-| sudo ufw enable   |       |
-| sudo ufw disable  |       |
- 
