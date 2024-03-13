@@ -123,14 +123,14 @@ bantime = 900
 # Mogelijke uitbreidingen `#1`
 
 > Hydra
-> `/`
+> `Maxence` , `Xander`
 
 ---
 
 # Mogelijke uitbreidingen `#2`
 
 > Awesome selfhosted
-> `Mauro`
+> `Mauro`, `Maxence`
 
 ![alt text](image.png)
 
