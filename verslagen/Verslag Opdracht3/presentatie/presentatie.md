@@ -132,7 +132,7 @@ bantime = 900
 > Awesome selfhosted
 > `Mauro`
 
-![alt text](image-8.png)
+![alt text](image.png)
 
 ---
 
