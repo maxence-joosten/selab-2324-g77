@@ -138,6 +138,7 @@ Voor de uitbreiding heb ik ook een viertal extra services op mijn server laten d
 ### Maxence
 
 ### Thomas
+Deze opdracht was ook weer leerzaam. Echter vond ik het spijtig dat we niet iets meer in depth zijn in gegaan. Ook deze keer was de opdracht tof om van bij te leren. Echter levert deze opdracht voor mij meer vragen op. Hoe we bijvoorbeeld kunnen koppelen aan een Domein naam, etc. Ook ben ik buiten schools betrokken met een website te maken/ opzetten, en kwam deze opdracht op een heel goed moment. Deze opdracht leverde mij ook geen problemen op.
 
 ### Robin
 
