@@ -14,7 +14,7 @@ In de vorige opdracht heb je een databaseserver opgezet in een virtuele machine 
 /var/www/html
 ```
 
-### `1.2`-  Zal de Apache service opstarten (= "enabled") bij booten van de VM? Hoe controleer je dit?
+### `1.2`- Zal de Apache service opstarten (= "enabled") bij booten van de VM? Hoe controleer je dit?
 
 ```
 sudo systemctl enable apache2.service
@@ -23,6 +23,7 @@ sudo systemctl enable apache2.service
 ```
 sudo systemctl status apache2.service
 ```
+
 ### `2` Met welke twee commando's kan je controleren of de SSH server draait, en op welke poort?
 
 ```
@@ -137,14 +138,17 @@ Voor de uitbreiding heb ik ook een viertal extra services op mijn server laten d
 
 ### Maxence
 
+Ik vond dit persoonlijk een toffe opdracht. Ik heb redelijk wat bijgeleerd, over een eingen webserver hosten. Dit vond ik zeer leerrijk. Ook security toevoegen op een server, is ook een zeer belangrijk onderdeel. Dit vond ik dus toch ook wel interessant. De uitbereiding was ook tof. Het voor het eerst in contact komen met Red Teaming is interessant en leuk. Tot slot, was het ook interessant om CasaOS te installeren. Hierbij hebben we ervoor gezorgd dat we onze persoonlijke media server hebben gemaakt met behulp van Jellyfin.
+
 ### Thomas
+
 Deze opdracht was ook weer leerzaam. Echter vond ik het spijtig dat we niet iets meer in depth zijn in gegaan. Ook deze keer was de opdracht tof om van bij te leren. Echter levert deze opdracht voor mij meer vragen op. Hoe we bijvoorbeeld kunnen koppelen aan een Domein naam, etc. Ook ben ik buiten schools betrokken met een website te maken/ opzetten, en kwam deze opdracht op een heel goed moment. Deze opdracht leverde mij ook geen problemen op.
 
 ### Robin
 
 ### Xander Beusellinck
 
-deze opdracht vond ik persoonlijk aangenamer dan de vorige omdat een server opzetten iets was dat ik altijd zou doen. Maar ik wist niet hoe maar dankzij deze opdracht kan dit nu wel. de opdracht was wel minder begleidend dan de vorige maar dit vind ik niet erg je leert meer uit opzoeken en proberen en bekijken van man-pages.
+Deze opdracht vond ik persoonlijk aangenamer dan de vorige omdat een server opzetten iets was dat ik altijd zou doen. Maar ik wist niet hoe maar dankzij deze opdracht kan dit nu wel. de opdracht was wel minder begleidend dan de vorige maar dit vind ik niet erg je leert meer uit opzoeken en proberen en bekijken van man-pages.
 
 ## Bronnen
 
