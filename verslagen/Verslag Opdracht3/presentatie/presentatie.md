@@ -130,7 +130,7 @@ bantime = 900
 # Mogelijke uitbreidingen `#2`
 
 > Awesome selfhosted
-> `Mauro`, `Maxence`
+> `Mauro`, `Maxence` , `Xander`
 
 ![alt text](image.png)
 
