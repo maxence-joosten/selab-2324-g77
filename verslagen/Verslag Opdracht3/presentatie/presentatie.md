@@ -125,6 +125,9 @@ bantime = 900
 > Hydra
 > `Maxence` , `Xander`
 
+![alt text](image-9.png)
+![alt text](image-8.png)
+
 ---
 
 # Mogelijke uitbreidingen `#2`
