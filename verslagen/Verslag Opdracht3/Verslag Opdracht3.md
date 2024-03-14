@@ -146,6 +146,8 @@ Deze opdracht was ook weer leerzaam. Echter vond ik het spijtig dat we niet iets
 
 ### Robin
 
+Opdracht 3 verliep heel vlot bij mij. De stappen waren iets minder duidelijk dan die van de vorige opdracht, maar ook niet te makkelijk waardoor we veel bij leerden. De opdracht zelf verliep heel vlot zonder enige problemen (voor mij toch). Het was ook interessant dat we de server ook op onze eigen computer konden zien. Ook het leren files uploaden naar onze VM via filezilla was zeer interessant. Een firewall leren opzetten is ook heel belangerijk. Al bij al een toffe opdracht die zeer leerrijk was.
+
 ### Xander Beusellinck
 
 Deze opdracht vond ik persoonlijk aangenamer dan de vorige omdat een server opzetten iets was dat ik altijd zou doen. Maar ik wist niet hoe maar dankzij deze opdracht kan dit nu wel. de opdracht was wel minder begleidend dan de vorige maar dit vind ik niet erg je leert meer uit opzoeken en proberen en bekijken van man-pages.
