@@ -29,7 +29,7 @@ paginate: true
 7. Uitschakelen
 
 
-> Maxence, Mauro, Robin, Thomas , Xander
+> Mauro, Maxence, Robin, Thomas , Xander
 
 ---
 
