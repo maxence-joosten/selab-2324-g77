@@ -156,9 +156,9 @@ paginate: true
    5. Configureer WordPress met de database
    6. Configureer WordPress
 
-   ![](Afbeelding14.png)
-   ![](Afbeelding15.png)
-   ![](Afbeelding16.png)
+   ![bg vertical right contain](Afbeelding14.png)
+   ![bg contain](Afbeelding15.png)
+   ![bg contain](Afbeelding16.png)
 
 ---
 
@@ -184,33 +184,49 @@ paginate: true
 
 # Machines uitschakelen
 
-- De `Stopppen` knop is terug tevinden in je machines overzicht
+- De `Stoppen` knop is terug tevinden in je machines overzicht
 
 ![](Afbeelding18.png)
 
 
 ---
 
-# Uitbreiding 1
+# Uitbreiding `#1`
+
+> SSH key
+> `name` , `name`
 
 ---
 
-# Uitbreiding 2
+# Uitbreiding `#2`
+
+> Ander thema in WordPress
+> `name` , `name`
 
 ---
 
-# Uitbreiding 3
+# Uitbreiding `#3`
+
+> WordPress script 
+> `name` , `name`
 
 ---
 
-# Uitbreiding 4
+# Uitbreiding `#4`
+
+> Andere beveiliging
+> `name` , `name`
 
 ---
 
-# Uitbreiding 5
+# Uitbreiding `#5`
+
+> Eigen domeinnaam toekennen
+> `name` , `name`
 
 ---
 
-# Uitbreiding 6
+# Uitbreiding `#6`
 
----
+> VM in Azure
+> `name` , `name`
