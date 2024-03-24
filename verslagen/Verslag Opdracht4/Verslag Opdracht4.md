@@ -45,7 +45,7 @@ x
 
 ### Thomas
 
-x
+Persoonlijk vond ik dit geen toffe opdracht. De microsoft Azure Cloud-computing-service is niet zo gebruiksvriendelijk. Ook met de stappen die we gekregen hebben was het navigeren / instellen een hele beproeving. Toch was het wel intressant hoe we op een andere manier een SQL data base kunnen hosten. 
 
 ### Robin
 
