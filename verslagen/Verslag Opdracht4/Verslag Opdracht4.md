@@ -57,8 +57,8 @@ x
 
 ## Bronnen
 
-https://ubuntu.com/tutorials/install-and-configure-wordpress#1-overview
-https://github.com/HOGENT-SELab/selab-2324-g77/blob/main/opdrachten/4-azure-wordpress.md
-https://portal.azure.com/
-https://azure.microsoft.com/nl-nl/
+- _Wordpress installeren_ - https://ubuntu.com/tutorials/install-and-configure-wordpress#1-overview
+- _Opdracht github_ - https://github.com/HOGENT-SELab/selab-2324-g77/blob/main/opdrachten/4-azure-wordpress.md
+- _Azure dashboard_ - https://portal.azure.com/
+- _Azure instellen_ - https://azure.microsoft.com/nl-nl/
 
