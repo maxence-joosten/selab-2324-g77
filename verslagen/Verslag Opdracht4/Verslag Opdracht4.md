@@ -41,11 +41,11 @@ x
 
 ### Maxence
 
-x
+Kon niet voort met deze opdracht, werkt niet. Moet elke dag opnieuw proberen, en hopen dat ik dan mijn krediet wel krijg.
 
 ### Thomas
 
-Persoonlijk vond ik dit geen toffe opdracht. De microsoft Azure Cloud-computing-service is niet zo gebruiksvriendelijk. Ook met de stappen die we gekregen hebben was het navigeren / instellen een hele beproeving. Toch was het wel intressant hoe we op een andere manier een SQL data base kunnen hosten. 
+Persoonlijk vond ik dit geen toffe opdracht. De microsoft Azure Cloud-computing-service is niet zo gebruiksvriendelijk. Ook met de stappen die we gekregen hebben was het navigeren / instellen een hele beproeving. Toch was het wel intressant hoe we op een andere manier een SQL data base kunnen hosten.
 
 ### Robin
 
@@ -61,4 +61,3 @@ x
 - _Opdracht github_ - https://github.com/HOGENT-SELab/selab-2324-g77/blob/main/opdrachten/4-azure-wordpress.md
 - _Azure dashboard_ - https://portal.azure.com/
 - _Azure instellen_ - https://azure.microsoft.com/nl-nl/
-
