@@ -13,7 +13,7 @@ paginate: true
    }
 </style>
 
-# Opdracht 3 - Een databankserver opzetten in een virtuele machine
+# Opdracht 4 - Azure Wordpress
 
 **Hoofdstukken**:
 
@@ -28,10 +28,13 @@ paginate: true
 6. Beveiliging HHTPS
 7. Uitschakelen
 
-
 > Mauro, Maxence, Robin, Thomas , Xander
 
+![bg right:33% brightness:0.75](image.png)
+
 ---
+
+<!-- header: 1. Microsoft Azure -->
 
 # Microsoft Azure
 
@@ -42,11 +45,13 @@ paginate: true
 
 ---
 
+<!-- header: 2. MySQL Databankserver -->
+
 # MySQL databankserver maken
 
 - Via `Een resource maken` en vervolgens bij `Databases` te clicken
 - Verkrijgen we `Azure Database for MySQL`
-![alt text](Afbeelding2.png)
+  ![alt text](Afbeelding2.png)
 
 - Vervolgens `Maken` te clicken
 
@@ -81,8 +86,8 @@ paginate: true
 
 - Gebruikersnaam en wachtwoord
 - Huidige ip toelaten door firewall
-![alt text](Afbeelding5.png)
-![alt text](Afbeelding6.png)
+  ![alt text](Afbeelding5.png)
+  ![alt text](Afbeelding6.png)
 
 ---
 
@@ -94,13 +99,15 @@ paginate: true
 
 ---
 
+<!-- header: 3. Ubuntu Applicatieserver -->
+
 # Ubuntu Applicatieserver
 
-- Weer via `Een resource maken`$
+- Weer via `Een resource maken`
 
 ![alt text](Afbeelding8.png)
 
-- Dezelfde stappen gelden als MySQL database 
+- Dezelfde stappen gelden als MySQL database
 
 ---
 
@@ -113,7 +120,7 @@ paginate: true
 
 ---
 
-# DNS configureren 
+# DNS configureren
 
 - DNS instellen in applicatie server
 
@@ -125,7 +132,7 @@ paginate: true
 
 ---
 
-# Applicatie sevrer toegang geven aan MySQL 
+# Applicatie sevrer toegang geven aan MySQL
 
 - Maak een ssh verbinding: `ssh <gebruikersnaam>@<dns-naam>`
 - Update de package repositories: `sudo apt update`
@@ -145,37 +152,38 @@ paginate: true
 # WordPress
 
 - In de Applicatieserver download je WordPress: `https://ubuntu.com/tutorials/install-and-configure-wordpress#1-overview`
-   1. Instaleer overige depndencies (packages)
-      - mysql server is al geinstaleerd
-   2. Install WordPress
-   3. Configureer apache voor WordPress
-      - hostname moest niet aangevuld worden
-   4. Configureer de MySQL database
-      - Data base bestaat al
-      - Alleen nodige data base setup 
-   5. Configureer WordPress met de database
-   6. Configureer WordPress
 
-   ![bg vertical right contain](Afbeelding14.png)
-   ![bg contain](Afbeelding15.png)
-   ![bg contain](Afbeelding16.png)
+  1.  Instaleer overige depndencies (packages)
+      - mysql server is al geinstaleerd
+  2.  Install WordPress
+  3.  Configureer apache voor WordPress
+      - hostname moest niet aangevuld worden
+  4.  Configureer de MySQL database
+      - Data base bestaat al
+      - Alleen nodige data base setup
+  5.  Configureer WordPress met de database
+  6.  Configureer WordPress
+
+  ![bg vertical right contain](Afbeelding14.png)
+  ![bg contain](Afbeelding15.png)
+  ![bg contain](Afbeelding16.png)
 
 ---
 
 # Beveiliging HTTPS
 
 - HTTPS verkrijgen via `https://certbot.eff.org/instructions?ws=apache&os=ubuntufocal`
-   1. SSH verbinding met uw server
+  1.  SSH verbinding met uw server
       - Hebben we al erder gedaan
-   2. Install snapd 
+  2.  Install snapd
       - Is al geinstallerd
-   3. Install Certbot
+  3.  Install Certbot
       - `sudo snap install --classic certbot`
-   4. Maak een link
+  4.  Maak een link
       - `sudo ln -s /snap/bin/certbot /usr/bin/certbot`
-   5. Koppel apache met Certbot
+  5.  Koppel apache met Certbot
       - `sudo certbot --apache`
-   6. Test voor automatische hernieuwing
+  6.  Test voor automatische hernieuwing
       - `sudo certbot renew --dry-run`
 
 ![](Afbeelding17.png)
@@ -188,45 +196,55 @@ paginate: true
 
 ![](Afbeelding18.png)
 
-
 ---
 
 # Uitbreiding `#1`
 
 > SSH key
-> `name` , `name`
+> `Mauro`
+
+![h:200px](image-3.png)
+![right bg contain](image-4.png)
 
 ---
 
 # Uitbreiding `#2`
 
 > Ander thema in WordPress
-> `name` , `name`
+> `Mauro`
+
+![bg contain right:60% vertical](image-1.png)
+![bg](image-6.png)
+
+<!-- ![bg](image-5.png) -->
 
 ---
 
 # Uitbreiding `#3`
 
-> WordPress script 
-> `name` , `name`
+> WordPress script
+> `/`
 
 ---
 
 # Uitbreiding `#4`
 
 > Andere beveiliging
-> `name` , `name`
+> `Mauro`
+
+![contain vertical bg right:60%](image-2.png)
+![bg h:200px](image-3.png)
 
 ---
 
 # Uitbreiding `#5`
 
 > Eigen domeinnaam toekennen
-> `name` , `name`
+> `Mauro`
 
 ---
 
 # Uitbreiding `#6`
 
 > VM in Azure
-> `name` , `name`
+> `Mauro`
