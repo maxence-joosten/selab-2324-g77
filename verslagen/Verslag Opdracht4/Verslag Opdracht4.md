@@ -37,7 +37,13 @@ Powerpoint te vinden [hier](presentatie/presentatie.md)
 
 ### Mauro
 
-x
+Dit was een lastigere opdracht, vooral omdat we met Microsoft Asure moesten werken. (wat voor heel wat moeilijkheden zorgde)
+Het is mij echter wel gelukt om een wordpress site online te zetten, net als een self-hosted instance van Casaos.
+
+Persoonlijk vind ik de stappen die we gekregen hadden niet al te duidelijk, maar met een beetje zoekwerk is het uiteindelijk wel gelukt.
+Het onduidelijke was dat er plots gezegt werd dat we de stappen op een site moesten volgen, maar de Github-info liep gewoon door en zorgde zo voor een probeempje.
+
+Ook was het gebruiken van Microsoft Asure niet bepaald gemakkelijk. De site laad traag in, geeft voorrang aan animaties en pop-ups die de werkflow heel de tijd verstoren. Ook is de lay-out van een zelfde pagina verschillende bij verschillende instances. (bv. de statknop die bovenaan links staat, maar voor een andere service aan de rechterkant op dezelfde hoogte.)
 
 ### Maxence
 
@@ -45,7 +51,7 @@ x
 
 ### Thomas
 
-Persoonlijk vond ik dit geen toffe opdracht. De microsoft Azure Cloud-computing-service is niet zo gebruiksvriendelijk. Ook met de stappen die we gekregen hebben was het navigeren / instellen een hele beproeving. Toch was het wel intressant hoe we op een andere manier een SQL data base kunnen hosten. 
+Persoonlijk vond ik dit geen toffe opdracht. De microsoft Azure Cloud-computing-service is niet zo gebruiksvriendelijk. Ook met de stappen die we gekregen hebben was het navigeren / instellen een hele beproeving. Toch was het wel intressant hoe we op een andere manier een SQL data base kunnen hosten.
 
 ### Robin
 
@@ -61,4 +67,3 @@ x
 - _Opdracht github_ - https://github.com/HOGENT-SELab/selab-2324-g77/blob/main/opdrachten/4-azure-wordpress.md
 - _Azure dashboard_ - https://portal.azure.com/
 - _Azure instellen_ - https://azure.microsoft.com/nl-nl/
-
