@@ -59,7 +59,8 @@ Deze opdracht verliep niet zo vlot. De database kon niet worden aangemaakt waard
 
 ### Xander Beusellinck
 
-x
+Deze opdracht lukte niet om te voltooien het studenten packet wilde niet vrijkomen voor mij dus wegens deze technische storing was het maken van deze opdracht niet mogelijk voor mij.
+wat heb ik gedaan om dit probleem op te lossen? ik heb via verschillende browsers geprobeerd om azure studenten liscencie te verkrijgen maar dit lukte niet, ik heb dan via academic software ook nog maals geprobeerd om dit te ontgrendelen maar dit lukte ook niet. ik heb vervolgens een mail gestuurd naar de vak verantwoordelijke de heer Aelbrecht. Dit resulteerde in een snelle respons waarin bleek dat ik niet de enige ben waarbij dit probleem voorkomt en de enige oplossing was elke dag opnieuw proberen. Het is blijbaar een probleem bij Microsoft Education gedeelte van Azure. Hopelijk lukt het me nog om deze opdracht in te halen als dit probleem opgelost is.
 
 ## Bronnen
 
