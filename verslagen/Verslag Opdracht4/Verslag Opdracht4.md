@@ -43,11 +43,11 @@ Het is mij echter wel gelukt om een wordpress site online te zetten, net als een
 Persoonlijk vind ik de stappen die we gekregen hadden niet al te duidelijk, maar met een beetje zoekwerk is het uiteindelijk wel gelukt.
 Het onduidelijke was dat er plots gezegt werd dat we de stappen op een site moesten volgen, maar de Github-info liep gewoon door en zorgde zo voor een probeempje.
 
-Ook was het gebruiken van Microsoft Asure niet bepaald gemakkelijk. De site laad traag in, geeft voorrang aan animaties en pop-ups die de werkflow heel de tijd verstoren. Ook is de lay-out van een zelfde pagina verschillende bij verschillende instances. (bv. de statknop die bovenaan links staat, maar voor een andere service aan de rechterkant op dezelfde hoogte.)
+Ook was het gebruiken van Microsoft Azure niet bepaald gemakkelijk. De site laad traag in, geeft voorrang aan animaties en pop-ups die de werkflow heel de tijd verstoren. Ook is de lay-out van een zelfde pagina verschillende bij verschillende instances. (bv. de statknop die bovenaan links staat, maar voor een andere service aan de rechterkant op dezelfde hoogte.)
 
 ### Maxence
 
-Kon niet voort met deze opdracht, werkt niet. Moet elke dag opnieuw proberen, en hopen dat ik dan mijn krediet wel krijg.
+Ik vond deze opdracht absoluut niet leuk. Eerst wou Azure niet herkennen dat ik een krediet had, waardoor hij mij telkens naar de 'aanvraag'-pagina stuurde. Uiteindelijk een dag later werkte het eindelijk wel. Het ambetantste van al vond ik dat het hele process gewoon zo traag was. De servers zijn gewoonweg te traag.
 
 ### Thomas
 
