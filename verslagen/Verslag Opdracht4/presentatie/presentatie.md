@@ -24,9 +24,11 @@ paginate: true
    1. Overzicht
    2. DNS configureren
    3. Toegeang tot MySQL
-5. WordPress
+5. Wordpress
 6. Beveiliging HTTPS
 7. Uitschakelen
+8. Problemen met Azure
+9. Uitbreiding
 
 > Mauro, Maxence, Robin, Thomas , Xander
 
@@ -210,21 +212,21 @@ paginate: true
 
 ---
 
-<!-- header: 1. Problemen -->
+<!-- header: 8. Problemen met Azure -->
 
 # Problemen met Azure student account
 
 - De melding
 
-(![alt text](image-8.png))
+(![contain h:300px](image-8.png))
 
 ---
 
-# Wat heb ik gedaan.
+# Wat heb ik gedaan
 
 - Mail verstuurd naar vak verantwoordelijke
 
-![alt text](image-9.png)
+![contain h:400px](image-9.png)
 
 ---
 
@@ -236,7 +238,7 @@ paginate: true
 
 ---
 
-<!-- header: Uitbreiding -->
+<!-- header: 9. Uitbreiding -->
 
 # Uitbreiding `#1`
 
