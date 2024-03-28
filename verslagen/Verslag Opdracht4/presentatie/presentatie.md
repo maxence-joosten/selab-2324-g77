@@ -25,7 +25,7 @@ paginate: true
    2. DNS configureren
    3. Toegeang tot MySQL
 5. WordPress
-6. Beveiliging HHTPS
+6. Beveiliging HTTPS
 7. Uitschakelen
 
 > Mauro, Maxence, Robin, Thomas , Xander
@@ -70,7 +70,7 @@ paginate: true
 
 ---
 
-# MySQL opsalg configureren
+# MySQL opslag configureren
 
 - Berekeningslaag: `Met burstmogelijkheden (1-20 vCores): meest geschikt voor workloads waarvoor niet continu de volledige CPU hoeft te worden gebruikt`
 - Grootte berekening: `Standaard_B1s (1 vCore, 1 GiB RAM, 400 maximale iops)`
@@ -111,6 +111,8 @@ paginate: true
 
 ---
 
+<!-- header: 4. Server configureren: Overzicht -->
+
 # Overzicht van servereigenschappen
 
 - Navigeer in Rescources naar opgemaakte Databank
@@ -119,6 +121,8 @@ paginate: true
 ![alt text](Afbeelding9.png)
 
 ---
+
+<!-- header: 4. Server configureren: DNS configureren -->
 
 # DNS configureren
 
@@ -132,7 +136,9 @@ paginate: true
 
 ---
 
-# Applicatie sevrer toegang geven aan MySQL
+<!-- header: 4. Server configureren: Toegang to MySQL -->
+
+# Applicatie server toegang geven aan MySQL
 
 - Maak een ssh verbinding: `ssh <gebruikersnaam>@<dns-naam>`
 - Update de package repositories: `sudo apt update`
@@ -149,7 +155,9 @@ paginate: true
 
 ---
 
-# WordPress
+<!-- header: 5. Wordpress -->
+
+# Wordpress
 
 - In de Applicatieserver download je WordPress: `https://ubuntu.com/tutorials/install-and-configure-wordpress#1-overview`
 
@@ -169,6 +177,8 @@ paginate: true
   ![bg contain](Afbeelding16.png)
 
 ---
+
+<!-- header: 6. Beveiliging HTTPS -->
 
 # Beveiliging HTTPS
 
@@ -190,6 +200,8 @@ paginate: true
 
 ---
 
+<!-- header: 7. Uitschakelen -->
+
 # Machines uitschakelen
 
 - De `Stoppen` knop is terug tevinden in je machines overzicht
@@ -197,6 +209,8 @@ paginate: true
 ![](Afbeelding18.png)
 
 ---
+
+<!-- header: Uitbreiding -->
 
 # Uitbreiding `#1`
 
@@ -220,13 +234,6 @@ paginate: true
 
 ---
 
-# Uitbreiding `#3`
-
-> WordPress script
-> `/`
-
----
-
 # Uitbreiding `#4`
 
 > Andere beveiliging
@@ -234,15 +241,7 @@ paginate: true
 
 ![contain vertical bg right:60%](image-2.png)
 ![bg h:200px](image-3.png)
-
----
-
-# Uitbreiding `#5`
-
-> Eigen domeinnaam toekennen
-> `Mauro`
-
----
+![bg](image-7.png)
 
 # Uitbreiding `#6`
 
