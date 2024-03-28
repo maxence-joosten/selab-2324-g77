@@ -210,6 +210,32 @@ paginate: true
 
 ---
 
+<!-- header: 1. Problemen -->
+
+# Problemen met Azure student account
+
+- De melding
+
+(![alt text](image-8.png))
+
+---
+
+# Wat heb ik gedaan.
+
+- Mail verstuurd naar vak verantwoordelijke
+
+![alt text](image-9.png)
+
+---
+
+# Het antwoord
+
+- Antwoord op mijn mail
+
+![alt text](image-10.png)
+
+---
+
 <!-- header: Uitbreiding -->
 
 # Uitbreiding `#1`
