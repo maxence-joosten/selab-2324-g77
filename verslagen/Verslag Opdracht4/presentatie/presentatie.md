@@ -39,7 +39,7 @@ paginate: true
 # Microsoft Azure
 
 - Account aanmaken: `https://azureforeducation.microsoft.com/devtools`
-- Deze account is gelinkt met HoGent Email
+- Dit account is gelinkt met HoGent Email
 
 ![contain](Afbeelding1.png)
 
