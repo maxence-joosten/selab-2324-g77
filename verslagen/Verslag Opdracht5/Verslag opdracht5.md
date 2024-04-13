@@ -2,14 +2,46 @@
 > **Naam verslaggever:** Thomas Lambrecht
 
 ## Beschrijving
-Beschrijf de opdracht in eigen woorden. Wat werd er van jullie verwacht? Wat was het doel van de opdracht?
+In deze opdracht willen we jullie uitgebreider kennis laten maken met [Docker](https://www.docker.com/) en [Docker Compose](https://docs.docker.com/compose/). Het doel van deze opdracht is om een dashboard te bouwen waarin je een overzicht krijgt van de containers die je draait, en om een webhosted password manager te bouwen. Beide applicaties zullen we draaien in Docker containers.
 
 ## Antwoorden op de vragen in de opdracht
 
+### Vraag 1 - Wat is `${USER}`?
 
-### Vraag 1 - Hier de vraag?
+De `${}` is een commando. Met dit wil ik zeggen achtergrond liggend opent hij een ander terminal en executeert deze en geeft de uitkomst als uitvoer. Deze uitvoer wordt dan in de oorspronkelijke terminal geplaatst. De `USER` keywoord geeft terug welke user momenteel is ingelogd.   
 
-Hier beschrijf je het antwoord op de vraag. Voeg eventueel een screenshot, code snippets, enz. toe om je antwoord te ondersteunen. Als je veel code hebt, kun je linken naar een apart bestand in jullie repository (of ergens anders).
+### Vraag 2 - Welk commando kan je gebruiken om jouw gebruikersnaam te bepalen?
+
+Er bestaat een commando `whoami`.
+
+### Vraag 3 - Welke commando's gebruik je hiervoor?
+
+Aan de hand van de volgende commando's kunnen we vaultwarden installeren:
+`docker pull vaultwarden/server:latest`
+`docker run -d --name vaultwarden -v /vw-data/:/data/ --restart unless-stopped -p 80:80 vaultwarden/server:latest`
+### Vraag 4 - Wat doet het `docker pull` commando?
+
+`docker pull` commando haalt een image op van een bestaande register.
+### Vraag 5 - Hoe kan je alle lokale images bekijken?
+
+Via de commando `docker images`
+### Vraag 6 - Hoe bekijk je alle lokaal draaiende containers?
+
+De commando `docker ps` kan hiervoor gebruikt worden.
+### Vraag 7 - Hoe bekijk je alle lokale containers (inclusief de gestopte containers)?
+
+Voor alle containers op te zoeken gebruiken we de commando: `docker ps -a`.
+### Vraag 8 - Waarom heeft Vaultwarden HTTPS nodig?
+
+Voor een heel simpele reden: Beveiliging. Het gebruik van HTTPS is voor de encryptie. 
+### Vraag 9 - Welke commando's gebruik je om Potainer te installeren?
+
+De volgende commando's kunnen gebruikt worden om Potainer te installeren:
+-  `docker volume create portainer_data`
+- `docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest`
+### Vraag 10 - Wat is het verschil tussen een docker volume en een VM-mount-volume?
+
+Bind-mounts koppelen een bestand of map aan uw container vanaf uw hostcomputer, waarnaar u vervolgens kunt verwijzen via het absolute pad. Docker-volumes worden volledig door Docker zelf afgehandeld en zijn daarom onafhankelijk van zowel uw directorystructuur als het besturingssysteem van de hostmachine.
 
 ## Evaluatiecriteria
 
@@ -17,9 +49,17 @@ Kopieer de evaluatiecriteria uit de opdracht in deze sectie met behulp van een [
 
 De lijst hieronder is een voorbeeld. Vervang deze met de werkelijke evaluatiecriteria.
 
-- [x] Het verslag is geschreven in Markdown
-- [ ] De container draait
-  - De container wou niet starten aangezien de Docker image niet gebouwd kon worden. Zie probleem 1 voor meer details.
+- [ ] De `docker-compose.yml` bestanden zijn te vinden op de GitHub repository van de groep.
+- [ ] Je kan alle instructies van Docker en Docker compose uitvoeren zonder `sudo` te gebruiken.
+- [ ] Je hebt Docker geïnstalleerd en kan dit aantonen met `docker --version`.
+- [ ] Je hebt Docker Compose geïnstalleerd en kan dit aantonen met `docker compose version`.
+- [ ] Je kan de command line instructies om een Vaultwarden container op te zetten toelichten.
+- [ ] Je kan de command line instructies om een Portainer container op te zetten toelichten.
+- [ ] Je kan een Vaultwarden container opzetten via Docker Compose op de command line. Je kan surfen via HTTPS naar en inloggen op deze container op het fysieke systeem (bv. via <https://192.168.56.20>).
+  - [ ] Je hebt deze ook gekoppeld aan een web browser client op het fysieke systeem.
+- [ ] Je kan een Portainer container opzetten via Docker Compose op de command line. Je kan surfen naar en inloggen op deze container op het fysieke systeem (bv. via <http://192.168.56.20>). Portainer en Vaultwarden worden op het Portainer dashboard weergegeven met als status "Running".
+- [ ] Je hebt een verslag gemaakt op basis van het template.
+- [ ] De cheat sheet werd aangevuld met nuttige commando's die je wenst te onthouden.
 
 ## Problemen en oplossingen
 
@@ -37,10 +77,25 @@ Beschrijf hier hoe je elk evaluatiecriterium zal demonstreren. Geef ook aan welk
 
 ## Reflecties
 
-Wat was moeilijk? Wat was eenvoudig? Wat hebben jullie geleerd van de opdracht? Wat zouden jullie anders doen als jullie het opnieuw moesten doen?
+### Mauro
 
-Als jullie nog andere opmerkingen hebben over de opdracht hebben, voel je vrij om ze te delen.
+
+### Maxence
+
+
+### Thomas
+
+
+### Robin
+
+
+### Xander Beusellinck
+
 
 ## Bronnen
 
-Maak een lijst van alle bronnen die jullie hebben gebruikt tijdens het uitvoeren van de opdracht: boeken, handleidingen, HOWTO's, blog posts, enz.
+- [Docker overview](https://docs.docker.com/get-started/overview/)
+- [Docker Compose overview](https://docs.docker.com/compose/)
+- [What is Docker in 5 minutes](https://www.youtube.com/watch?v=_dfLOzuIg2o)
+- [Learn Docker in 7 Easy Steps](https://www.youtube.com/watch?v=gAkwW2tuIqE)
+- [website van Docker](https://docs.docker.com/engine/install/#server) 
