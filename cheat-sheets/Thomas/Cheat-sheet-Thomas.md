@@ -69,3 +69,19 @@
 | geef rechten               | grant all privileges on *.* to 'admin'@'%' with grant option;                     |
 | voor door privileges       | flush privileges;                                                                 |
 | ga uit mysql               | exit;                                                                             |
+
+## Docker
+
+| Taak                  | Commando                                |
+| --------------------- | --------------------------------------- |
+| docker pull image     | docker pull "name"                      |
+| docker run            | docker run -d -p "poort":"poort" "name" |
+| docker show images    | docker ps -a                            |
+| docker container list | docker container ls -a                  |
+
+## UFW firewall
+| Taak                | Commando               |
+| ------------------- | ---------------------- |
+| fire wall status    | sudo ufw status        |
+| poort toelaten      | sudo ufw allow "poort" |
+| poort niet toelaten | sudo ufw denay "poort" |

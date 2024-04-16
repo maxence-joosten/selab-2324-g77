@@ -85,7 +85,7 @@ Beschrijf hier hoe je elk evaluatiecriterium zal demonstreren. Geef ook aan welk
 
 ### Thomas
 
-
+Voor mij was deze opdracht echter moeilijk. Ik heb lang zitten sukkelen met de docker-compose. Maar naast het moeilijkheid in het begin, vond ik het wel een interessante opdracht. Persoonlijk vond ik dit moeilijker dan de Azure cloud omgeving.
 ### Robin
 
 
