@@ -115,7 +115,7 @@ sudo usermod -aG docker ${USER}
 
 <!-- header: Docker: Installatie Portainer -->
 
-![bg contain right:30% 90%](Untitled.png)
+![bg vertical contain right:60% 50%](Untitled.png)
 
 # Installatie Portainer
 
@@ -135,26 +135,100 @@ We beheren Docker-containers vanuit een Docker-container met Portainer. Dit lijk
    --restart=always
    -v /var/run/docker.sock:/var/run/docker.sock
    -v portainer_data:/data portainer/portainer-ce:latest
+
    ```
+
+   ![bg contain](image-2.png)
 
 ---
 
 <!-- header: Docker: Docker Compose -->
 
+![bg right:55% contain](image-3.png)
+
+# Docker Compose
+
+- Stappen van Stap 1 correct gevolgd?:
+
+  - Docker compose staat geinstalleerd
+  - Check het met dit commando:
+
+  ```
+  docker compose version
+  ```
+
+  <!-- MAURO CHECKK PLZ -->
+
 ---
 
 <!-- header: Docker: Werken met een `docker-compose.yml` bestand -->
+
+![bg right 90% contain](image-4.png)
+
+# Werken met een docker-compose.yml bestand
+
+- `touch docker-compose.yml` **OF** `nano docker-compose.yml`
+- yml-file aanvullen met info zoals hiernaast op de afbeelding
+- Run de compose file met dit commando:
+  ```
+  docker compose up -d
+  ```
 
 ---
 
 <!-- header: Docker: Opruimen -->
 
+# Opruimen
+
+- Alle onnodige containers disabelen:
+
+```
+docker disable <naam van container>
+```
+
+- Alle onnodige containers verwijderen
+
+```
+docker rm <naam van container>
+```
+
 ---
 
-```
+ <!-- header: Problemen -->
 
-```
+# Problemen
 
-```
+![bg right contain](image-5.png)
 
-```
+- SSH bij Vaultwarden
+  - Opgelost met Azure
+
+---
+
+<!-- header: Uitbreiding -->
+
+# Uitbreiding `#1`
+
+> Automatisch opstarten Vaultwarden en Portainer
+> `Mauro`, `Maxence`
+
+- `--restart unless-stopped` altijd herstarten
+
+---
+
+# Uitbreiding `#2`
+
+> Installeer vorige opdrachten m.b.v. Docker
+> `Mauro`, `Maxence` , `Xander`
+
+![bg vertical contain right](image-6.png)
+![bg vertical contain ](image-7.png)
+
+---
+
+# Uitbereiding `#3`
+
+> Minetest Server
+> `Maxence`
+
+![bg right:60%](image-8.png)
