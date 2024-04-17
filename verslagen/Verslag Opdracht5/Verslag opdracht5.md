@@ -91,6 +91,7 @@ Voor mij was deze opdracht echter moeilijk. Ik heb lang zitten sukkelen met de d
 
 ### Xander Beusellinck
 
+deze opdracht was geen zo'n groot probleem hier en daar had ik wel problemen met verbinen met de services maar uiteindelijk is deze opdractht gelukt ik had niet zo'n grote problemen met docker te werken omdat we reeds al met docker hebben gewerkt in operating systems. 
 
 ## Bronnen
 
