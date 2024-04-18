@@ -78,7 +78,7 @@ Beschrijf hier hoe je elk evaluatiecriterium zal demonstreren. Geef ook aan welk
 ## Reflecties
 
 ### Mauro
-
+Deze opdracht was wel leuk. Omdat we op de vorige opdrachten al CasaOS hadden geinstalleerd had ik al wat ervaring met Docker. Het maken, beheren, installeren en verwijderen van docker is altijd goed en en snel gegaan, maar het installeren van het SSL-certificaat is mij niet gelukt. Ik heb de opdracht dan verder gemaakt totaan docker-compose. En ik heb deze docker-compose.yml file dan gebruikt om een server op te starten in de Azure cloud omgeving. Op deze heb ik dan voor Vaultwarden ook een SSL-certificaat kunnen aanmaken. 
 
 ### Maxence
 
