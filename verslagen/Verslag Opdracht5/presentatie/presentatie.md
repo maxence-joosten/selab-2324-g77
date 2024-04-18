@@ -224,9 +224,13 @@ docker rm <naam van container>
 ![bg vertical contain right](image-6.png)
 ![bg vertical contain ](image-7.png)
 
+![alt text](Frame.png)
+_Vaultwarden op
+https://sera2.switzerlandnorth.cloudapp.azure.com_ met beveiligde verbinding.
+
 ---
 
-# Uitbereiding `#3`
+# Uitbreiding `#3`
 
 > Minetest Server
 > `Maxence`
