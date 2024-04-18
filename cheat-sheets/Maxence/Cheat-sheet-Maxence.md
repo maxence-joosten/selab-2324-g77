@@ -2,6 +2,43 @@
 
 > Student: Maxence
 
+## Opdracht 5: Docker
+
+| Task                          | Commando                                                                                                                                                                              |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Installatie vaultwarden       | <ul><li>`docker pull vaultwarden/server:latest`</li><li>`docker run -d --name vaultwarden -v /vw-data/:/data/ --restart unless-stopped -p 80:80 vaultwarden/server:latest`</li></ul>` |
+| Maak Portainer volume aan     | `docker volume create portainer_data`                                                                                                                                                 |
+| Starten van container         | `docker run -d`                                                                                                                                                                       |
+| Docker compose versie checken | `docker compose version`                                                                                                                                                              |
+| Container disablen            | `docker disable <naam van container>`                                                                                                                                                 |
+| Container verwijderen         | `docker rm <naam van container>`                                                                                                                                                      |
+
+## Opdracht 4: WordPress opzetten in de Microsoft Azure cloudomgeving
+
+| Task                        | Commando                                        |
+| --------------------------- | ----------------------------------------------- |
+| SSH Verbinding              | `ssh [gebruikersnaam]@[dns-naam]`               |
+| Update package repositories | `sudo apt update`                               |
+| Update package repositories | `sudo apt upgrade`                              |
+| Installatie MySQL client    | `sudo apt install mysql-client`                 |
+| Connectie met de databank   | `mysql -h [dns-naam] -u [gebruiker] -p`         |
+| Certbot                     | `sudo snap install --classic certbot`           |
+| Maak link                   | `sudo ln -s /snap/bin/certbot /usr/bin/certbot` |
+| Apache linken met Certbot   | `sudo certbsudo certbot renew --dry-run`        |
+
+## Opdracht 3: Een webserver opzetten in een virtuele omgeving
+
+| Task                                         | Commando                                                                                                       |
+| -------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Apache installeren                           | `sudo apt install apache2`                                                                                     |
+| Status checken                               | `systemctl status [service]`                                                                                   |
+| Gebruiker toevoegen aan groep                | `sudo usermod -aG www-data gebruiker`                                                                          |
+| Document Root eigendom van groep maken       | ` sudo chgrp -R www-data /var/www/html/`                                                                       |
+| Schrijfrechten geven aan de groep `www-data` | `sudo chmod -R g+w /pad/naar/document/root`                                                                    |
+| Beveiligen met SSL                           | <ul><li>`sudo a2enmod ssl`</li><li>`sudo a2enmod defaut-ssl`</li><li>`sudo systemctl reload apache2`</li></ul> |
+| Beveiligen met firewall                      | <ul><li>`sudo ufw enable`</li><li>`sudo ufw allow [apache, 80, ...]`</li></ul>                                 |
+| fail2ban beveiliging                         | <ul><li>`sudo apt install fail2ban`</li><li>`sudo systemctl enable fail2ban`</li></ul>                         |
+
 ## Opdracht 2: Een databankserver opzetten in een virtuele machine
 
 ### Basics bij set-up
