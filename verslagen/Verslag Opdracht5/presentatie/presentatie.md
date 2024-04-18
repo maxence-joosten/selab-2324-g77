@@ -81,7 +81,7 @@ sudo apt-get update
 
    > Ook direct `docker compose` toegevoegd.
 
-4. Test Docker met de `hellow-world` image.
+4. Test Docker met de `hello-world` image.
 
 \-------------------------------
 

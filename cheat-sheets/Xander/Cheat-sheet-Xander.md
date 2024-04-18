@@ -1,17 +1,31 @@
 >Student: Xander Beuselinck 
 
+## cheat-sheet docker
+
+| taak                                 |                                  Commando |     |
+| ------------------------------------ | ----------------------------------------: | --- |
+| user toevoegen aan groep voor docker | <br>```sudo usermod -aG docker ${USER}``` |     |
+| docker containers ophalen            |                    ``` docker pull```<br> |     |
+| containers starten                   |                       ```docker run -d``` |     |
+| configureren van .yml bestanden      |            ``` nano docker-compose.yml``` |     |
+| container opstarten                  |                ```docker compose up -d``` |     |
+| containers uitzetten                 |     ```docker disable <naam container>``` |     |
+| containers verwijderen               |          ```docker rm <naam container>``` |     |
+
+
+
 ## cheat-sheet webserver
 
-| taak                             |                                    Commando |
-| -------------------------------- | ------------------------------------------: |
-| controleren of applicatie draait | <br>```systemctl status [naam programma]``` |
-| aanzetten firewall               |                  ``` sudo ufw enable```<br> |
-| verkeer toelaten via firewall    |                ```ufw allow [applicatie]``` |
-| configureren van bestanden       |           ```sudo nano [pad van bestand]``` |
-| is netwerk online                |             ```curl -I https://<website>``` |
-| herstarten van systeem           |                           ```sudo reboot``` |
-| systeemlogs bekijken             |                            ```journalctl``` |
-| installatie van apache2          |             ```sudo apt install apache2 ``` |
+| taak                             |                                    Commando |     |
+| -------------------------------- | ------------------------------------------: | --- |
+| controleren of applicatie draait | <br>```systemctl status [naam programma]``` |     |
+| aanzetten firewall               |                  ``` sudo ufw enable```<br> |     |
+| verkeer toelaten via firewall    |                ```ufw allow [applicatie]``` |     |
+| configureren van bestanden       |           ```sudo nano [pad van bestand]``` |     |
+| is netwerk online                |             ```curl -I https://<website>``` |     |
+| herstarten van systeem           |                           ```sudo reboot``` |     |
+| systeemlogs bekijken             |                            ```journalctl``` |     |
+| installatie van apache2          |             ```sudo apt install apache2 ``` |     |
 ## cheat-sheet virtualbox/mysql
 
 | taak                                |                                                               Commando |
