@@ -1,30 +1,26 @@
-# Cheat sheets en checklists
-
 > Student: Mauro Maratta
 
+# Opdracht 1
 ## Basiscommando's
 
-| Task                                                   | Command                          |
-| :----------------------------------------------------- | :------------------------------- |
-| Bekijk IP-adressen van alle netwerkadapters            | `ip a`                           |
-| Bekijk de status van een service                       | `systemctl status SERVICE`       |
-| Start een service                                      | `sudo systemctl start SERVICE`   |
-| Stop een service                                       | `sudo systemctl stop SERVICE`    |
-| Herstart een service                                   | `sudo systemctl restart SERVICE` |
-| Update de package repositories (Ubuntu & Debian based) | `sudo apt update`                |
-| Installeer een package (Ubuntu & Debian based)         | `sudo apt install PACKAGE`       |
+| Command                          | Task                                        |
+| :------------------------------- | :------------------------------------------ |
+| `ip a`                           | Bekijk IP-adressen van alle netwerkadapters |
+| `systemctl status SERVICE`       | Bekijk de status van een service            |
+| `sudo systemctl start SERVICE`   | Start een service                           |
+| `sudo systemctl stop SERVICE`    | Stop een service                            |
+| `sudo systemctl restart SERVICE` | Herstart een service                        |
 
 ## Git workflow
 Simpele git workflow voor projecten met een enkele branch en zonder contributors.
 
-| Task                                                               | Command                   |
-| :----------------------------------------------------------------- | :------------------------ |
-| Push lokale wijzigingen naar de remote repository                  | `git push`                |
-| Haal alle wijzigingen van de remote repository binnen in de lokale | `git pull`                |
-| Status van het huidige project                                     | `git status`              |
-| Selecteer te committen bestanden                                   | `git add FILE...`         |
-| Commit alle wijzigingen naar de lokale repository                  | `git commit -m 'MESSAGE'` |
-
+| Command                   | Task                                                               |
+| :------------------------ | :----------------------------------------------------------------- |
+| `git push`                | Push lokale wijzigingen naar de remote repository                  |
+| `git pull`                | Haal alle wijzigingen van de remote repository binnen in de lokale |
+| `git status`              | Status van het huidige project                                     |
+| `git add FILE...`         | Selecteer te committen bestanden                                   |
+| `git commit -m 'MESSAGE'` | Commit alle wijzigingen naar de lokale repository                  |
 ## Checklist netwerkconfiguratie
 
 1. Is het IP-adres correct? `ip a`
@@ -34,12 +30,12 @@ Simpele git workflow voor projecten met een enkele branch en zonder contributors
 ## Chocolaty commando's
 Gemakkelijke commando's om om programma's te instaleren via Chocolaty
 
-| **Task**                                                                | **Commando**                   |
-| ----------------------------------------------------------------------- | ------------------------------ |
-| Een lijst tonen van de software die nu geïnstalleerd is via Chocolatey  | choco list                     |
-| Alle packages die nu geïnstalleerd zijn bijwerken tot de laatste versie | choco upgrade all<br>          |
-| Via de console een package opzoeken                                     | choco search zoekterm          |
-| Een geïnstalleerde applicatie verwijderen                               | choco uninstall <package_naam> |
+| **Commando**                   | **Task**                                                                |
+| ------------------------------ | ----------------------------------------------------------------------- |
+| choco list                     | Een lijst tonen van de software die nu geïnstalleerd is via Chocolatey  |
+| choco upgrade all<br>          | Alle packages die nu geïnstalleerd zijn bijwerken tot de laatste versie |
+| choco search zoekterm          | Via de console een package opzoeken                                     |
+| choco uninstall <package_naam> | Een geïnstalleerde applicatie verwijderen                               |
 
 ## PowerShell
 Enkele vlugge weetjes om een startende PowerShell script te maken 
@@ -63,7 +59,6 @@ Enkele basis commando's en taken bij het opzetten van een (vm) server
 | Update alle pakketten                            | `sudo apt upgrade`                                                                         |
 | VM uitzetten                                     | `sudo poweroff`                                                                            |
 | VM restarten                                     | `sudo reboot`                                                                              |
-
 ## MySQL Install Cheat-sheet
 Enkele basiscommando's bij het installeren van een MySQL server op een Ubuntu systeem
 
@@ -85,6 +80,7 @@ Enkele basiscommando's bij het installeren van een MySQL server op een Ubuntu sy
 | Controleren of poort 3306 beschrikbaar is                                                                                                          | <ul><li>`nc localhost 3306`</li><li>`telnet localhost 3306`</li><li>`wget localhost:3306`</li><li>`telnet 192.168.56.20 3306`</li></ul> |
 
 ## Configuratie van de databank
+
 
 | Task                                          | Commando                                                                            |
 | --------------------------------------------- | ----------------------------------------------------------------------------------- |
@@ -148,7 +144,74 @@ Enkele basiscommando's bij het installeren van een MySQL server op een Ubuntu sy
 | Tabel uitlijnen | `:---` voor links, `---:` voor rechts, `:---:` voor gecentreerd                                                                    |
 
 
-## Apache2, fail2ban and firewall
+# Opdracht 2
+
+
+| Commando                         | Task                                                                                                    |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| hostname -I                      | IP adress vinden in de terminal                                                                         |
+| sudo apt update                  | Update de OS                                                                                            |
+| sudo apt install -y mysql-server | Installeer mysql-server (of andere applicatie)<br>-y is om YES te andwoorden op de eerstvolgende promt. |
+| systemctl status mysql           | controleer de status van een service op het systeem                                                     |
+| systemctl restart mysql          | restart een service op je systeem                                                                       |
+#### Configuratie van de databank
+```console
+sudo mysql
+```
+
+```sql
+use mysql;
+alter user 'root'@'localhost' identified with mysql_native_password by 'letmein';
+```
+
+```sql
+create user 'admin'@'%' identified by 'letmein';
+grant all privileges on *.* to 'admin'@'%' with grant option;
+flush privileges;
+exit;
+```
+
+```sql
+sudo mysql_secure_installation
+```
+
+#### VM afsluiten in de CLI
+```console
+sudo poweroff
+```
+
+# Opdracht 3
+
+#### Gebruiker aan een groep toevoegen.
+Permissies aanpassen voor een gebruiker in de terminal.
+```console
+sudo usermod -aG www-data osboxes
+```
+
+#### Document Root aan een groep toevoegen
+Permissies van de document root toevoegen aan een groep.
+```console
+sudo chgrp -R www-data /pad/naar/document/root
+```
+
+#### Open SSH
+Installeer de Open SSH servers zodat je een SSH verbinding kan maken.
+```console
+sudo apt install openssh-server
+```
+
+Je kan verbinden met deze server via `ssh <gebruikersnaam>@<adress>` in de terminal.
+
+#### Webserver beveiligen met SSL
+Dit is voor een Apache2 server
+```console
+sudo a2enmod ssl
+sudo a2ensite default-ssl
+sudo systemctl reload apache2
+```
+
+#### Webserver beveiligen met een firewall
+**UWF**
 
 | Commands          | Tasks |
 | ----------------- | ----- |
@@ -156,3 +219,55 @@ Enkele basiscommando's bij het installeren van een MySQL server op een Ubuntu sy
 | sudo ufw deny __  |       |
 | sudo ufw enable   |       |
 | sudo ufw disable  |       |
+#### Webserver beveiligen met Fail2Ban
+
+
+# Opdracht 4
+# Opdracht 5
+## Installeer Docker
+\1. Verwijder alle oude docker files
+```
+   for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+```
+\2. Zet docker repository op
+```
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+```
+\3. Installeer docker and mogelijke plugins
+```
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+\4. Test Docker
+```
+sudo docker run hello-world
+```
+
+#### Vaultwarden
+Installeer een docker container voor Vaultwarden
+```
+docker pull vaultwarden/server:latest
+docker run -d --name vaultwarden -v /vw-data/:/data/ --restart unless-stopped -p 80:80 vaultwarden/server:latest
+```
+
+#### Docker commands
+
+| Task                          | Commando                                                                                                                                                                              |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Installatie vaultwarden       | <ul><li>`docker pull vaultwarden/server:latest`</li><li>`docker run -d --name vaultwarden -v /vw-data/:/data/ --restart unless-stopped -p 80:80 vaultwarden/server:latest`</li></ul>` |
+| Maak Portainer volume aan     | `docker volume create portainer_data`                                                                                                                                                 |
+| Starten van container         | `docker run -d`                                                                                                                                                                       |
+| Docker compose versie checken | `docker compose version`                                                                                                                                                              |
+| Container disablen            | `docker disable <naam van container>`                                                                                                                                                 |
+| Container verwijderen         | `docker rm <naam van container>`                                                                                                                                                      |

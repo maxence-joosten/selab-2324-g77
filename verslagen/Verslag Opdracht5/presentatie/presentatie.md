@@ -150,14 +150,12 @@ We beheren Docker-containers vanuit een Docker-container met Portainer. Dit lijk
 
 - Stappen van Stap 1 correct gevolgd?:
 
-  - Docker compose staat geinstalleerd
+  - Docker compose staat geïnstalleerd
   - Check het met dit commando:
 
   ```
   docker compose version
   ```
-
-  <!-- MAURO CHECKK PLZ -->
 
 ---
 
