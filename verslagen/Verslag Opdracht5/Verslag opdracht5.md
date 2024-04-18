@@ -86,8 +86,10 @@ Deze opdracht was wel leuk. Omdat we op de vorige opdrachten al CasaOS hadden ge
 ### Thomas
 
 Voor mij was deze opdracht echter moeilijk. Ik heb lang zitten sukkelen met de docker-compose. Maar naast het moeilijkheid in het begin, vond ik het wel een interessante opdracht. Persoonlijk vond ik dit moeilijker dan de Azure cloud omgeving.
+
 ### Robin
 
+De opdracht over docker was niet zo interessant en liep ook niet al te vlot. Ik had namelijk enkele problemen met te connecten via de webbrowser omdat ik het SSL certificate niet in orde kreeg. Uiteindelijk heb ik dit wel kunnen oplossen. Tijdens de opdracht waren er ook nog enkele kleine struikelblokken die opgelost werden.
 
 ### Xander Beusellinck
 
