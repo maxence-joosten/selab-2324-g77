@@ -26,6 +26,9 @@ Lijst alle verslagen:
 | Verslag 2 |     [Mauro Maratta](https://github.com/MaSeraphina)      |
 | Verslag 3 | [Xander Beuselinck](https://github.com/xanderbeuselinck) |
 | Verslag 4 |        [Robin Sonck](https://github.com/RobinS45)        |
+| Verslag 5 |  [LambrechtThomas](https://github.com/LambrechtThomas)   |
+| Verslag 6 |                                                          |
+| verslag 7 |                                                          |
 
 ## Inhoudstafel
 
