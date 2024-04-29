@@ -10,68 +10,131 @@ Voor deze opdracht werd er van ons verwacht dat we elk een eigen kapotte virtuel
 
 
 
-### type 1 
+### netwerk
+Type 4 , 3 en 5
+netwerk probleem werd opgelost door volgend commando.
+``` bash
+sudo nano /etc/netplan/e1-xxxx.yaml 
+```
+dhcp4 stond op false dhcp4 true zetten en dan kan er via externe host gepingd worden op 192.168.56.20.
 
-Type 1 had problemen met de default gateway, services die niet actief waren , foutief ingestelde poorten, wordpress en  vaultwarden.
-
-
-Probleem 1  was gebrek aan een default gateway die niet was ingesteld dit werd opgelost door volgend bash commando.
-
-``` sudo route add default gw 10.0.2.2```
-
-Probleem 2 had te maken met apache2 en OpenSSH die niet active and running was dit werd ontdekt door volgend commando.
-``` sudo systemctl <service naam > status```
-
+### webserver (apache2)
+Type 1,
+de  apache2 service wast niet bereikbaar via host systeem. Om dit op te lossen niet active and running was dit werd ontdekt door volgend commando.
+``` bash
+sudo systemctl apache2 status
+```
 Om dit op te lossen werd volgend commando uitgevoerd.
-``` sudo systemctl enable <service naam> ```
+``` bash
+sudo systemctl enable apache2 
+```
+![[Pasted image 20240429154721.png]]
+### Databankserver (mariadb)
+Type 1,
+de gebruiker wpuser bestond nog niet in de database en moest toegevoegd worden.
+```show grant for 'wpuser'@'localhost'```
+om dit op te lossen werd de wpuser aangemaakt en ook direct alle privileges gegeven zoals gezien bij opdracht-2-databankserver 
+``` mysql> 
+create user 'wpuser'@'%' identified by 'letmein!';
+grant all privileges on *.* to 'wpuser'@'%' with grant option;
+flush privileges;
+```
 
-Probleem 3 er kon geen connectie gemaakt worden via ssh vanop host-os naar de vm. dit werd opgelost door volgende commando's.
-``` sudo apt-get purge OpenSSH-client
+### Wordpress
+Type 1 ,
+het probleem met wordpres was dat de username,wachtwoord en databasenaam waren door elkaar gehaald. We kregen deze melding als er werd geprobeerd naar de wordpress-site te gaan.
+![[Pasted image 20240429151516.png]]
+Vervolgens werd er in de wordpress-config gekeken om de fouten eruit te halen.
+```bash
+sudo nano /var/www/wordpress/wp-config.php
+```
+![[Pasted image 20240429151218.png]]
+Dit de juiste instelling van de wordpress-config file.
+Vervolgens was  het mogelijk om de site te bezoeken.
+![[Pasted image 20240429150055.png]]
+### SSH
+type 1 ,
+Vervolgens hadden we een probleem met de ssh-connectie van host naar vm. eerst hebben we gekeken of de firewall aanstaat en of de juiste poort 22 toegelaten is.
+``` bash
+sudo ufw status verbose
+sudo ufw allow in <poort>/<protocol>
+```
+Dit werkte leverde voor ons een connection failure op. Vervolgens hebben OpenSSH-client en server opnieuw op onze vm gezet.  
+``` bash
+sudo apt-get purge OpenSSH-client
 	 sudo apt-get purge OpenSSH-server
 	  sudo apt-get install OpenSSH-client
 	   sudo apt-get install OpenSSH-server
 	  sudo journalctl -t sshd 
 ```
+Toen kon er via filezilla op de vm files transferen en was het mogelijk om via de powershell terminal ssh connectie te starten naar de vm met volgend commando.
+``` shell
+ ssh trouble@192.168.56.20
+```
 ![[sshViaFillezilla.png]]
 
-Probleem 4 was een foutief ingestelde poort van vaultwarden in het docker-compose.yml file dit was ingesteld op 80:80 maar vaultwarden draait op poort 4123 : 80 
+### Docker
+
+#### Minetest
+Er werd geprobeerd verbinding te maken dit lukte niet dus werd deze container heropgestart.
+``` bash
+docker compose up -d
+```
+![[Pasted image 20240429154359.png]]
+ 
+#### Vaultwarden 
+type 1,
+ Er was een foutief ingestelde poort van vaultwarden in het docker-compose.yml file dit was ingesteld op 80:80 maar vaultwarden draait op poort 4123 : 80.
+``` bash
+sudo nano /docker/docker-compose.yml   
+```
 ![[Pasted image 20240428194634.png]]
 Na aanpassing ziet het er zo uit.
 ![[Pasted image 20240428195058.png]]
-Probleem 5 planka 
-![[plakaWerktNiet.png]]
-
+#### planka
+type 1 , 
+Het probleem bij Planka container was dat de Secret key in commentaar stond de # verwijderen en de container opnieuw opstarten.
+``` bash
+sudo nano /docker/planka/docker-compose.yml
 ```
+![[Pasted image 20240429160307.png]]
+``` bash
+sudo docker compose up -d 
+```
+![[Pasted image 20240429160840.png]]
+
 ## Evaluatiecriteria
 
-Kopieer de evaluatiecriteria uit de opdracht in deze sectie met behulp van een [task list](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists). Vink de criteria aan die jullie denken behaald te hebben. Geef een korte toelichting bij elk vakje dat jullie **niet** aangevinkt hebben.
+Toon na afwerken het resultaat aan je begeleider. Elk teamlid moet in staat zijn om het resultaat te demonstreren bij de oplevering van deze opdracht! Criteria voor beoordeling:
 
-De lijst hieronder is een voorbeeld. Vervang deze met de werkelijke evaluatiecriteria.
-
-- [x] Het verslag is geschreven in Markdown
-- [ ] De container draait
-  - De container wou niet starten aangezien de Docker image niet gebouwd kon worden. Zie probleem 1 voor meer details.
+- [ ]  Er is een volledig werkende virtuele machine volgens de eindsituatie.
+- [ ]  Je hebt een verslag gemaakt op basis van het template.
+    - [ ]  Het verslag bevat een duidelijke beschrijving van de problemen die je hebt gevonden mét de oplossingen. **Per type machine is er een aparte beschrijving!**
+- [ ]  De cheat sheet werd aangevuld met nuttige commando's die je wenst te onthouden voor later.
 
 ## Problemen en oplossingen
 
-Beschrijf hieronder eventuele problemen die jullie zijn tegengekomen tijdens het uitvoeren van de opdracht, met een korte beschrijving van wat er mis ging en hoe jullie het hebben opgelost (als het jullie gelukt is om het op te lossen). Als het niet gelukt is om het op te lossen, beschrijf dan hoe ver jullie zijn gekomen en wat jullie tegenhield om verder te gaan. Voeg eventuele foutmeldingen, screenshots, enz. toe.
+Tijdens het uitvoeren van de vorige opdrachten hebben jullie waarschijnlijk al gemerkt dat niet alles van de eerste keer lukt en dat bepaalde zaken niet werken zoals ze zouden moeten. Dit is vergelijkbaar met situaties die je kan tegenkomen in het bedrijfsleven, waarbij je geconfronteerd wordt met problemen die moeten worden opgelost door fouten op te sporen en te corrigeren.
 
-Als jullie geen problemen zijn tegengekomen, schrijf dan "geen problemen ondervonden".
+Troubleshooting is dan ook een essentiële vaardigheid voor toekomstige systeembeheerders, en in deze opdracht willen we jullie kennis laten maken met deze vaardigheid. Om deze opdracht succesvol af te ronden, zul je een systematische aanpak moeten hanteren om de mogelijke problemen te detecteren en in een logische volgorde op te lossen. Het document [debugging-selab.md](https://github.com/HOGENT-SELab/selab-2324-g77/blob/main/cheat-sheets/debugging-selab.md) kan je hierbij helpen.
+
+Het is zeer belangrijk om alle kennis toe te passen die je in de voorgaande opdrachten hebt opgedaan. Veel succes!
 
 ### Probleem 1 - Korte beschrijving van het probleem
 
-Beschrijf hier het probleem uitgebreid met screenshots, code snippets, enz. en de oplossing die jullie al dan niet hebben gevonden.
+
 
 ## Voorbereiding demo
 
-Beschrijf hier hoe je elk evaluatiecriterium zal demonstreren. Geef ook aan welke bestanden, commando's, enz. je zal gebruiken tijdens de demo.
+
 
 ## Reflecties
 
-Wat was moeilijk? Wat was eenvoudig? Wat hebben jullie geleerd van de opdracht? Wat zouden jullie anders doen als jullie het opnieuw moesten doen?
-
-Als jullie nog andere opmerkingen hebben over de opdracht hebben, voel je vrij om ze te delen.
+#### Reflectie Xander Beuselinck
+Ik vond deze opdracht persoonlijk wel wat leuker hier en daar botste ik op een probleem maar omdat we allemaal soortgelijke problemen hadden werd een oplossing voor ene probleem heel snel gevonden.  Meeste oplossingen voor problemen waren ook terrug te vinden in vorige labo's. 
 
 ## Bronnen
 
-Maak een lijst van alle bronnen die jullie hebben gebruikt tijdens het uitvoeren van de opdracht: boeken, handleidingen, HOWTO's, blog posts, enz.
+https://github.com/HOGENT-SELab/selab-2324-g77/tree/main/opdrachten
+https://docs.docker.com/engine/install/ubuntu/
+
