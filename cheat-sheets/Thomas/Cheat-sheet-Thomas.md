@@ -8,8 +8,6 @@
 | Een geïnstalleerde applicatie verwijderen                               | choco uninstall "name" |
 | Een  applicatie installeren                                             | choco install "name"   |
 
-
-
 ## Scripts / PowerShell
 
 | Taak                              | Commando                                          |
@@ -56,6 +54,7 @@
 | restarten van service        | sudo systemctl restart "name"   |
 | user toevoegen aan groep     | sudo usermod -aG "Group" "user" |
 | verander toegangen           | sudo chmod -R                   |
+| ip addr show                 | ip addr show "interface"        |
 
 ## MySql
 

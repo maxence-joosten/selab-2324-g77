@@ -8,7 +8,7 @@ Voor deze opdracht werd er van ons verwacht dat we elk een eigen kapotte virtuel
 
 ### netwerk
 
-Type 2-5:
+Type 2-3-5:
 netwerk probleem werd opgelost door volgend commando.
 
 ```bash
@@ -19,7 +19,7 @@ dhcp4 stond op false dhcp4 true zetten en dan kan er via externe host gepingd wo
 
 ### webserver (apache2)
 
-Type 1,
+Type 1, 3
 de apache2 service wast niet bereikbaar via host systeem. Om dit op te lossen niet active and running was dit werd ontdekt door volgend commando.
 
 ```bash
@@ -36,7 +36,7 @@ sudo systemctl enable apache2
 
 ### Databankserver (mariadb)
 
-Type 1,
+Type 1, 3
 de gebruiker wpuser bestond nog niet in de database en moest toegevoegd worden.
 `show grant for 'wpuser'@'localhost'`
 om dit op te lossen werd de wpuser aangemaakt en ook direct alle privileges gegeven zoals gezien bij opdracht-2-databankserver
@@ -76,7 +76,7 @@ Vervolgens was het mogelijk om de site te bezoeken.
 
 ### SSH
 
-type 1 ,
+type 1, 3  
 Vervolgens hadden we een probleem met de ssh-connectie van host naar vm. eerst hebben we gekeken of de firewall aanstaat en of de juiste poort 22 toegelaten is.
 
 ```bash
@@ -124,7 +124,7 @@ docker compose up -d
 
 #### Vaultwarden
 
-type 1,
+type 1, 3
 Er was een foutief ingestelde poort van vaultwarden in het docker-compose.yml file dit was ingesteld op 80:80 maar vaultwarden draait op poort 4123 : 80.
 
 ```bash
