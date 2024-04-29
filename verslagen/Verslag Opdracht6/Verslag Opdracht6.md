@@ -191,6 +191,10 @@ Voor mij was dit een moeilijke opdracht. Sommige van de yml files heb ik te snel
 
 Ik was echter geen fan van deze opdracht. Deze opdracht was vrij moeilijk. Ik persoonlijk had het opdracht maar tot een goed einde kunnen brengen over een periode van 2 weken en 3 opnieuw verse installaties.  Ik had heel veel problemen met wat ik vermoed is DHCP, waarbij steeds opnieuw de ip `192.168.56.103/24` terug kwam. En wanneer je die hard verwijderde breekt de machine en krijg je  `WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!`. Echter na de 3de versie was dit eindelijke opgelost.
 
+#### Reflectie Mauro Maratta
+
+Ik vond deze opdracht wel een mooie samenvatting over alles wat wij gedaan hebben over de afgelopen weken. Na een beetje opzoekwerk en een beetje hulp van andere heb ik het eerste gedeelte van de opdracht kunnen voltooien. Alle opdrachten heb ik daarna kunnen doen met alle info van github. Verbinden via SSH heeft ook enkele problemen gekregen, net als Thomas heb ik ook een `WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!`-waarschuwing gekregen. Na een beetje rondzoeken is dit ook opgelost geraakt en kon ik alle opdrachten verder doen via de Windows terminal over SSH.
+
 ## Bronnen
 
 https://github.com/HOGENT-SELab/selab-2324-g77/tree/main/opdrachten
