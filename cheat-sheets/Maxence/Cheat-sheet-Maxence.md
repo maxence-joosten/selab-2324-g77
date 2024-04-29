@@ -2,6 +2,14 @@
 
 > Student: Maxence
 
+## Opdracht 6: Trouble Shooting
+
+| Task                                              | Commando               |
+| ------------------------------------------------- | ---------------------- |
+| Checken welke poorten door firewall aan/uit staan | `ufw status`           |
+| Verkeer enablen/disabelen                         | `ufw <enable/disable>` |
+| Verkeer toestaan                                  | `ufw allow <poort>`    |
+
 ## Opdracht 5: Docker
 
 | Task                          | Commando                                                                                                                                                                              |
