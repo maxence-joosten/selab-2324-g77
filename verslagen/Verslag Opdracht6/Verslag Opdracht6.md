@@ -166,6 +166,10 @@ Het is zeer belangrijk om alle kennis toe te passen die je in de voorgaande opdr
 
 Ik vond deze opdracht persoonlijk wel wat leuker hier en daar botste ik op een probleem maar omdat we allemaal soortgelijke problemen hadden werd een oplossing voor ene probleem heel snel gevonden. Meeste oplossingen voor problemen waren ook terrug te vinden in vorige labo's.
 
+#### Thomas Lambrecht
+
+Ik was echter geen fan van deze opdracht. Deze opdracht was vrij moeilijk. Ik persoonlijk had het opdracht maar tot een goed einde kunnen brengen over een periode van 2 weken en 3 opnieuw verse installaties.  Ik had heel veel problemen met wat ik vermoed is DHCP, waarbij steeds opnieuw de ip `192.168.56.103/24` terug kwam. En wanneer je die hard verwijderde breekt de machine en krijg je  `WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!`. Echter na de 3de versie was dit eindelijke opgelost.
+
 ## Bronnen
 
 https://github.com/HOGENT-SELab/selab-2324-g77/tree/main/opdrachten
