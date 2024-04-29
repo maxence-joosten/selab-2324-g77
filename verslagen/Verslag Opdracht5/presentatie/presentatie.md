@@ -27,8 +27,6 @@ paginate: true
 2. Problemen
 3. Uitbreiding
 
-**Hoofdstukken**:
-
 > Mauro, Maxence, Robin, Thomas , Xander
 
 ![bg right:33% brightness:0.75](image.png)
