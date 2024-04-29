@@ -271,3 +271,14 @@ docker run -d --name vaultwarden -v /vw-data/:/data/ --restart unless-stopped -p
 | Docker compose versie checken | `docker compose version`                                                                                                                                                              |
 | Container disablen            | `docker disable <naam van container>`                                                                                                                                                 |
 | Container verwijderen         | `docker rm <naam van container>`                                                                                                                                                      |
+
+
+
+
+## Opdracht 6: Trouble Shooting
+
+| Task                                              | Commando               |
+| ------------------------------------------------- | ---------------------- |
+| Checken welke poorten door firewall aan/uit staan | `ufw status`           |
+| Verkeer enablen/disabelen                         | `ufw <enable/disable>` |
+| Verkeer toestaan                                  | `ufw allow <poort>`    |
