@@ -8,7 +8,7 @@ Voor deze opdracht werd er van ons verwacht dat we elk een eigen kapotte virtuel
 
 ### netwerk
 
-Type 4 , 3 en 5
+Type 2-5:
 netwerk probleem werd opgelost door volgend commando.
 
 ```bash
@@ -47,10 +47,17 @@ grant all privileges on *.* to 'wpuser'@'%' with grant option;
 flush privileges;
 ```
 
+
+Type 2: Poort 3306 die gebruikt wordt voor de databankserver werd niet geopend. Daarom gebruiken we het commando
+```bash
+sudo ufw allow 3306
+```
+om de poort te openen.
+
 ### Wordpress
 
-Type 1 ,
-het probleem met wordpres was dat de username,wachtwoord en databasenaam waren door elkaar gehaald. We kregen deze melding als er werd geprobeerd naar de wordpress-site te gaan.
+Type 1 en 2:
+Het probleem met wordpress was dat de username,wachtwoord en databasenaam waren door elkaar gehaald. We kregen deze melding als er werd geprobeerd naar de wordpress-site te gaan.
 
 ![alt text](Pastedimage20240429151516.png)
 
@@ -97,6 +104,14 @@ Toen kon er via filezilla op de vm files transferen en was het mogelijk om via d
 
 ### Docker
 
+#### Compose
+
+Bij docker startten de containers niet automatisch totdat ze een keer zijn aangezet. Het commando
+```bash
+docker ps -a
+```
+lost dit probleem op. 
+
 #### Minetest
 
 Er werd geprobeerd verbinding te maken dit lukte niet dus werd deze container heropgestart.
@@ -123,6 +138,8 @@ Na aanpassing ziet het er zo uit.
 ![alt text](Pastedimage20240428195058.png)
 
 #### planka
+
+Type 2: In de planka docker-compose.yml zijn de default admin password en username verwisseld.
 
 type 1 ,
 Het probleem bij Planka container was dat de Secret key in commentaar stond de # verwijderen en de container opnieuw opstarten.
@@ -165,6 +182,10 @@ Het is zeer belangrijk om alle kennis toe te passen die je in de voorgaande opdr
 #### Reflectie Xander Beuselinck
 
 Ik vond deze opdracht persoonlijk wel wat leuker hier en daar botste ik op een probleem maar omdat we allemaal soortgelijke problemen hadden werd een oplossing voor ene probleem heel snel gevonden. Meeste oplossingen voor problemen waren ook terrug te vinden in vorige labo's.
+
+#### Robin Sonck
+
+Voor mij was dit een moeilijke opdracht. Sommige van de yml files heb ik te snel overlopen, waardoor ik niet de fouten zag. Opzich was de opdracht vrij simpel nadat ik rustig mijn tijd nam om alles te overlopen. In het vervolg ga ik wat gestructureerder werken
 
 #### Thomas Lambrecht
 
