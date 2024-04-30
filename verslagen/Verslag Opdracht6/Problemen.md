@@ -8,22 +8,22 @@ Zet een ` x`  op plaatsen waar je wel een probleem had.
 | - Het toestel kan via externe host gepingd worden op 192.168.56.20.               |                    |                   |                    |                   | x                   |
 |                                                                                   |                    |                   |                    |                   |                     |
 | WEBSERVER                                                                         |                    |                   |                    |                   |                     |
-| - Moet bereikbaar zijn via de browser in de hostomgeving ...                      |                    |                   | x                  | x                 |                     |
-| - Het is mogelijk om via de Ubuntu gebruiker bestanden naar de webse...           |                    |                   |                    | x                 |                     |
+| - Moet bereikbaar zijn via de browser in de hostomgeving ...                      | x                  |                   | x                  | x                 |                     |
+| - Het is mogelijk om via de Ubuntu gebruiker bestanden naar de webse...           | x                  |                   |                    | x                 |                     |
 |                                                                                   |                    |                   |                    |                   |                     |
 | DATABANKSERVER                                                                    |                    |                   |                    |                   |                     |
-| - Databank `appdb` moet bereikbaar zijn via MySQL Workbench in...                 |                    |                   | x                  | x                 | x                   |
-| - Moet alleen lokaal toegankelijk zijn vanaf de VM zelf via het MySQL-commando... |                    |                   |                    | x                 |                     |
+| - Databank `appdb` moet bereikbaar zijn via MySQL Workbench in...                 | x                  |                   | x                  | x                 | x                   |
+| - Moet alleen lokaal toegankelijk zijn vanaf de VM zelf via het MySQL-commando... | x                  |                   |                    | x                 |                     |
 |                                                                                   |                    |                   |                    |                   |                     |
 | WORDPRESS                                                                         |                    |                   |                    |                   |                     |
-| - Moet bereikbaar zijn via de browser...                                          |                    |                   |                    |                   |                     |
-| - Er moet een post aangemaakt zijn (met inhoud naar keuze)                        |                    |                   |                    |                   | x                   |
+| - Moet bereikbaar zijn via de browser...                                          | x                  |                   |                    |                   |                     |
+| - Er moet een post aangemaakt zijn (met inhoud naar keuze)                        | x                  |                   |                    |                   | x                   |
 |                                                                                   |                    |                   |                    |                   |                     |
 | SSH                                                                               |                    |                   |                    |                   |                     |
-| - Verbinding maken                                                                |                    |                   | x                  | x                 |                     |
+| - Verbinding maken                                                                | x                  |                   | x                  | x                 |                     |
 |                                                                                   |                    |                   |                    |                   |                     |
 | DOCKER                                                                            |                    |                   |                    |                   |                     |
-| - Vaultwarden, Minetest en Portainer draaien via Docker Compose...                |                    |                   |                    |                   |                     |
+| - Vaultwarden, Minetest en Portainer draaien via Docker Compose...                | x                  |                   |                    |                   |                     |
 | - Beide pagina's zijn extern bereikbaar via een beveiligde verbinding             |                    |                   | x                  |                   |                     |
 | - Bij Minetest is het mogelijk om een spel te joinen door de minetest             |                    |                   |                    |                   |                     |
-| - Planka draait via een aparte docker compose service                             |                    |                   |                    | x                 |                     |
+| - Planka draait via een aparte docker compose service                             | x                  |                   |                    | x                 |                     |
