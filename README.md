@@ -27,7 +27,7 @@ Lijst alle verslagen:
 | Verslag 3 | [Xander Beuselinck](https://github.com/xanderbeuselinck) |
 | Verslag 4 |        [Robin Sonck](https://github.com/RobinS45)        |
 | Verslag 5 |  [LambrechtThomas](https://github.com/LambrechtThomas)   |
-| Verslag 6 |                                                          |
+| Verslag 6 | [Xander Beuselinck](https://github.com/xanderbeuselinck) |
 | verslag 7 |                                                          |
 
 ## Inhoudstafel
