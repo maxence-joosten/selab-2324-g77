@@ -47,11 +47,12 @@ grant all privileges on *.* to 'wpuser'@'%' with grant option;
 flush privileges;
 ```
 
-
 Type 2: Poort 3306 die gebruikt wordt voor de databankserver werd niet geopend. Daarom gebruiken we het commando
+
 ```bash
 sudo ufw allow 3306
 ```
+
 om de poort te openen.
 
 ### Wordpress
@@ -107,10 +108,12 @@ Toen kon er via filezilla op de vm files transferen en was het mogelijk om via d
 #### Compose
 
 Bij docker startten de containers niet automatisch totdat ze een keer zijn aangezet. Het commando
+
 ```bash
 docker ps -a
 ```
-lost dit probleem op. 
+
+lost dit probleem op.
 
 #### Minetest
 
@@ -179,7 +182,7 @@ Het is zeer belangrijk om alle kennis toe te passen die je in de voorgaande opdr
 
 ## Reflecties
 
-#### Reflectie Xander Beuselinck
+#### Xander Beuselinck
 
 Ik vond deze opdracht persoonlijk wel wat leuker hier en daar botste ik op een probleem maar omdat we allemaal soortgelijke problemen hadden werd een oplossing voor ene probleem heel snel gevonden. Meeste oplossingen voor problemen waren ook terrug te vinden in vorige labo's.
 
@@ -189,11 +192,15 @@ Voor mij was dit een moeilijke opdracht. Sommige van de yml files heb ik te snel
 
 #### Thomas Lambrecht
 
-Ik was echter geen fan van deze opdracht. Deze opdracht was vrij moeilijk. Ik persoonlijk had het opdracht maar tot een goed einde kunnen brengen over een periode van 2 weken en 3 opnieuw verse installaties.  Ik had heel veel problemen met wat ik vermoed is DHCP, waarbij steeds opnieuw de ip `192.168.56.103/24` terug kwam. En wanneer je die hard verwijderde breekt de machine en krijg je  `WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!`. Echter na de 3de versie was dit eindelijke opgelost.
+Ik was echter geen fan van deze opdracht. Deze opdracht was vrij moeilijk. Ik persoonlijk had het opdracht maar tot een goed einde kunnen brengen over een periode van 2 weken en 3 opnieuw verse installaties. Ik had heel veel problemen met wat ik vermoed is DHCP, waarbij steeds opnieuw de ip `192.168.56.103/24` terug kwam. En wanneer je die hard verwijderde breekt de machine en krijg je `WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!`. Echter na de 3de versie was dit eindelijke opgelost.
 
-#### Reflectie Mauro Maratta
+#### Mauro Maratta
 
 Ik vond deze opdracht wel een mooie samenvatting over alles wat wij gedaan hebben over de afgelopen weken. Na een beetje opzoekwerk en een beetje hulp van andere heb ik het eerste gedeelte van de opdracht kunnen voltooien. Alle opdrachten heb ik daarna kunnen doen met alle info van github. Verbinden via SSH heeft ook enkele problemen gekregen, net als Thomas heb ik ook een `WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!`-waarschuwing gekregen. Na een beetje rondzoeken is dit ook opgelost geraakt en kon ik alle opdrachten verder doen via de Windows terminal over SSH.
+
+#### Maxence Joosten
+
+Ik was niet zo'n grote fan van deze opdracht. Het was een hoop gepruts, en zeer moeilijk op te lossen. Ik heb hier veel te veel tijd aan gespendeerd, en vond het zeer frustrerend. Uiteindelijk heb ik samen met de rest oplossingen gevonden voor (grotendeels) alle problemen op mijn machine (machine 5). Ik vind het jammer, dat ik toch niet alles heb kunnen fixen, ookal gebruikte ik dezelfde oplossingen die de rest mij aanbood. Ik ben zelfs hulp gaan vragen bij een andere groep, en zelfs deze fixes konden mij niet helpen. Dit was mijn minst favoriete opdracht van dit volledig project.
 
 ## Bronnen
 
