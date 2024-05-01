@@ -20,7 +20,7 @@ Zet een ` x`  op plaatsen waar je wel een probleem had.
 | - Er moet een post aangemaakt zijn (met inhoud naar keuze)                        | x                  |                   |                    |                   | x                   |
 |                                                                                   |                    |                   |                    |                   |                     |
 | SSH                                                                               |                    |                   |                    |                   |                     |
-| - Verbinding maken                                                                | x                  |                   | x                  | x                 |                     |
+| - Verbinding maken                                                                | x                  |                   | x                  | x                 | X                   |
 |                                                                                   |                    |                   |                    |                   |                     |
 | DOCKER                                                                            |                    |                   |                    |                   |                     |
 | - Vaultwarden, Minetest en Portainer draaien via Docker Compose...                | x                  |                   |                    |                   |                     |
