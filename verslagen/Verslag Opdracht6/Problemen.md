@@ -17,7 +17,7 @@ Zet een ` x`  op plaatsen waar je wel een probleem had.
 |                                                                                   |                    |                   |                    |                   |                     |
 | WORDPRESS                                                                         |                    |                   |                    |                   |                     |
 | - Moet bereikbaar zijn via de browser...                                          | x                  | x                 |                    |                   |                     |
-| - Er moet een post aangemaakt zijn (met inhoud naar keuze)                        | x                  |                   |                    |                   | x                   |
+| - Er moet een post aangemaakt zijn (met inhoud naar keuze)                        | x                  | x                 |                    |                   | x                   |
 |                                                                                   |                    |                   |                    |                   |                     |
 | SSH                                                                               |                    |                   |                    |                   |                     |
 | - Verbinding maken                                                                | x                  |                   | x                  | x                 | X                   |
