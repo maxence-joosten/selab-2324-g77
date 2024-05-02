@@ -13,6 +13,10 @@ paginate: true
    }
 </style>
 
+<!-- _paginate: false -->
+
+---
+
 ![bg right:33% brightness:0.75](image.png)
 
 # Opdracht 6 - Troubleshoot
