@@ -143,7 +143,7 @@ Omdat er, zoals hierboven vermeld, geen GUI voorzien is, zijn volgende instellin
 
 ### Netwerk: Het toestel beschikt over internet.
 
-> Problemen op `type 3`, `type 4`, `type 5`,
+> Problemen op `type 3`,`type 2`, `type 4`, `type 5`,
 
 dhcp4 stond op false dhcp4 true zetten en dan kan er via externe host gepingd worden op 192.168.56.20.
 
@@ -157,7 +157,7 @@ sudo nano /etc/netplan/01-network-manager-all.yaml
 
 ### Netwerk: <br> Het toestel kan via externe host gepingd worden op 192.168.56.20.
 
-> Problemen op `type 5`,
+> Problemen op `type 2`, `type 5`
 
 ![h:8cm](image-5.png)
 
@@ -182,7 +182,7 @@ _De folder `/www/data` bestaat niet, maar bestanden kunnen overgezet worden._
 
 ### Databankserver (mariadb): Databank `appdb` moet bereikbaar zijn via MySQL Workbench voor de gebruiker `appusr` met wachtwoord `letmein!`.
 
-> Problemen op `type 1`, `type 3`, `type 4`, `type 5`,
+> Problemen op `type 1`, `type 2`, `type 3`, `type 4`, `type 5`,
 
 ![h:4cm](image-9.png)
 
@@ -203,7 +203,7 @@ _De folder `/www/data` bestaat niet, maar bestanden kunnen overgezet worden._
 ![bg contain right:40% vertical](image-11.png)
 ![bg contain](image-12.png)
 
-> Problemen op `type 1`
+> Problemen op `type 1`, `type 2`
 
 ---
 
@@ -211,7 +211,7 @@ _De folder `/www/data` bestaat niet, maar bestanden kunnen overgezet worden._
 
 **voor de gebruiker wpuser en het wachtwoord letmein! en gebruikt de database wpdb.**
 
-> Problemen op `type 1`, `type 5`
+> Problemen op `type 1`, `type 2`, `type 5`
 
 ![bg contain right:40% vertical](image-11.png)
 ![bg contain](image-12.png)
@@ -220,7 +220,7 @@ _De folder `/www/data` bestaat niet, maar bestanden kunnen overgezet worden._
 
 ### SSH: Verbinding maken
 
-> Problemen op `type 1`, `type 3`, `type 4`
+> Problemen op `type 1`, `type 3`, `type 4`, `type 5`
 
 ![alt text](image-13.png)
 
@@ -228,7 +228,7 @@ _De folder `/www/data` bestaat niet, maar bestanden kunnen overgezet worden._
 
 ### Docker: Container draaien
 
-> Problemen op `type 1`
+> Problemen op `type 1`, `type 2`
 
 ![w:3cm](image-15.png)
 ![alt text](image-14.png)
@@ -237,7 +237,7 @@ _De folder `/www/data` bestaat niet, maar bestanden kunnen overgezet worden._
 
 ### Docker: Portainer en Vaultwarden zijn extern bereikbaar
 
-> Problemen op `type 3`
+> Problemen op `type 1`, `type 3`
 
 ![alt text](image-16.png)
 
@@ -251,16 +251,18 @@ _De folder `/www/data` bestaat niet, maar bestanden kunnen overgezet worden._
 
 ---
 
-### Docker: Planka draaid
+### Docker: Planka draait
 
-> Problemen op `type 1`, `type 4`
+> Problemen op `type 1`, `type 2`, `type 4`
 
 ![bg right vertical contain](image-17.png)
 ![bg right vertical contain](image-19.png)
 
 ---
 
-![bg brightness:0.75](image.png)
+<!-- header:  Foto: [vrtnws.be/~/kat-galena-per-post-verstuurd](www.vrt.be/vrtnws/nl/2024/04/29/kat-galena-per-post-verstuurd) -->
+
+![bg brightness:0.5](image.png)
 
 ```
 
