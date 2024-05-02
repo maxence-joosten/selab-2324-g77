@@ -265,6 +265,6 @@ _De folder `/www/data` bestaat niet, maar bestanden kunnen overgezet worden._
 ```
 
    Geen zorgen.
-   De Galena is veilig terug thuis geraakt.
+   Galena is veilig terug thuis geraakt.
 
 ```
