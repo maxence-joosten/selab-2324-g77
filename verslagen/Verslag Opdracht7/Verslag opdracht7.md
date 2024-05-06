@@ -206,9 +206,24 @@ De tabel had de eerste keer een kleine fout waardoor het niet lukte om apparaten
 Powerpoint kan je [hier](presentatie/presentatie.md) vinden.
 ## Reflecties
 
+
+
+### Mauro
+
+
+
+
+
 ### Maxence
 
 Ik vond dit over het algemeen een toffe opdracht. Subnetten vind ik eigenlijk nog redelijk tof. Het is ook een zeer belangrijke en leerzame opdracht, iets wat we later zeker en vast nodig gaan hebben. Ik vond dit een mooie afsluiter van dit project.
+
+
+### Robin
+
+
+### Thomas
+
 
 ### Xander
 
