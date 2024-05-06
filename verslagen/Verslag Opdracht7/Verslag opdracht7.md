@@ -217,6 +217,7 @@ Ik vond dit over het algemeen een toffe opdracht. Subnetten vind ik eigenlijk no
 
 ### Thomas
 
+Ik vond deze opdracht echter vrij gemakkelijk. Deze opdracht leek echter veel op de opdrachten die we moesten doen voor het vak `netwerk en systeem beheer`.  Echter zijn de commando's niet zo rap te vinden online en kunnen deze wel moeilijk te vinden zijn.
 ### Xander
 
 Mijn ervaring met deze laatste opdracht viel in het begin wat tegen omdat paket tracer mijn gewenste commando's niet wou uitvoeren maar door "do" ervoor te zetten kan paket tracer niet lastig doen in de console. voor het subnetten vond ik deze opdracht zeer goed een uitdaging zeker wel omdat je word gepushed om een niet standaar verdeleling te gebruiken dus ook niet de meest optimale in deze situatie.

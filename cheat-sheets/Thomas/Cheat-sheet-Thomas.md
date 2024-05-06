@@ -84,3 +84,15 @@
 | fire wall status    | sudo ufw status        |
 | poort toelaten      | sudo ufw allow "poort" |
 | poort niet toelaten | sudo ufw denay "poort" |
+## Cisco
+| Taak                      | Commando                            |
+| ------------------------- | ----------------------------------- |
+| admin                     | enable                              |
+| configuratie van terminal | configure terminal                  |
+| naam wijzigen             | hostname "naam"                     |
+| terug keren               | end                                 |
+| ip address instellen      | ip adrress "ip-address"             |
+| routerings tabel          | show ip route                       |
+| default gateway           | ip default-gateway "ip-address"     |
+| Intefaces tonen           | show ip interface brief             |
+| Voor ipv6                 | alle commando's er boven met `ipv6` |
