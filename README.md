@@ -28,7 +28,7 @@ Lijst alle verslagen:
 | Verslag 4 |        [Robin Sonck](https://github.com/RobinS45)        |
 | Verslag 5 |  [LambrechtThomas](https://github.com/LambrechtThomas)   |
 | Verslag 6 | [Xander Beuselinck](https://github.com/xanderbeuselinck) |
-| verslag 7 |                                                          |
+| verslag 7 |     [Mauro Maratta](https://github.com/MaSeraphina)      |
 
 ## Inhoudstafel
 
