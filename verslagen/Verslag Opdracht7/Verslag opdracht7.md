@@ -194,7 +194,7 @@ IPv6:
   - [x] Er zijn geen ongewenste DNS lookups.
   - [x] De startup config is weggeschreven.
   - [x] Je kan via IPv4 pingen naar zowel SW1, R1, SW2.
-- [ ] Je kan vanuit PC1 een SSH-verbinding openen naar SW1 en R1 via IPv4.
+- [x] Je kan vanuit PC1 een SSH-verbinding openen naar SW1 en R1 via IPv4.
 - [x] Je hebt een verslag gemaakt op basis van het template.
 - [x] De cheat sheet werd aangevuld met nuttige commando's die je wenst te onthouden voor later.
 
@@ -220,9 +220,12 @@ Ik vond dit over het algemeen een toffe opdracht. Subnetten vind ik eigenlijk no
 
 ### Robin
 
+Deze opdracht was wel tof. Cisco packet tracer is een intuitief programma waarbij ik echt plezier had om de router en switches te configureren. Het opstellen van de adresseringstabellen verliep wel wat moeilijker. Toch was dit een toffe opdracht waarbij ik veel geleerd heb.
+
 ### Thomas
 
 Ik vond deze opdracht echter vrij gemakkelijk. Deze opdracht leek echter veel op de opdrachten die we moesten doen voor het vak `netwerk en systeem beheer`.  Echter zijn de commando's niet zo rap te vinden online en kunnen deze wel moeilijk te vinden zijn.
+
 ### Xander
 
 Mijn ervaring met deze laatste opdracht viel in het begin wat tegen omdat paket tracer mijn gewenste commando's niet wou uitvoeren maar door "do" ervoor te zetten kan paket tracer niet lastig doen in de console. voor het subnetten vond ik deze opdracht zeer goed een uitdaging zeker wel omdat je word gepushed om een niet standaar verdeleling te gebruiken dus ook niet de meest optimale in deze situatie.
