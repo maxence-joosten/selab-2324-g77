@@ -178,10 +178,10 @@ IPv6:
 ## Evaluatiecriteria
 
 - [x] Je hebt een correct adresseringsschema voor IPv4 uitgewerkt en kan dit toelichten.
-- [ ] Je hebt een correct adresseringsschema voor IPv6 uitgewerkt en kan dit toelichten.
+- [x] Je hebt een correct adresseringsschema voor IPv6 uitgewerkt en kan dit toelichten.
 - [x] PC1 kan pingen naar SW1, R1, SW2 en PC4 over IPv4.
-- [ ] PC1 kan pingen naar PC4 over IPv6.
-- [ ] De begeleider selecteert willekeurig een van volgende toestellen: SW1, R1, SW2. Je kan op dit toestel het volgende demonstreren:
+- [x] PC1 kan pingen naar PC4 over IPv6.
+- [x] De begeleider selecteert willekeurig een van volgende toestellen: SW1, R1, SW2. Je kan op dit toestel het volgende demonstreren:
   - [x] Je kan inloggen via de consolekabel.
   - [x] Er is een wachtwoord ingesteld voor console en privileged EXEC mode.
   - [x] Er is een MOTD ingesteld.
