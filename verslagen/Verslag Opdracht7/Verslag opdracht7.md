@@ -210,7 +210,7 @@ Powerpoint kan je [hier](presentatie/presentatie.md) vinden.
 
 ### Mauro
 
-
+Deze opdracht is mij minder goed gelukt, ik heb proberen een adresseringsschema te maken, maar ik heb meer fouten gemaakt dan problemen op te lossen.  Dit had een mooie afsluiter kunnen zijn van SE-Lab al ik mijn lessen van computer netwerk beter genoteerd had om beroep op te doen ipv vele vragen mijn teamgenoot te stellen. 
 
 
 
