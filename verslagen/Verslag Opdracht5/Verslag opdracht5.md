@@ -83,7 +83,7 @@ Beschrijf hier het probleem uitgebreid met screenshots, code snippets, enz. en d
 
 ## Voorbereiding demo
 
-Beschrijf hier hoe je elk evaluatiecriterium zal demonstreren. Geef ook aan welke bestanden, commando's, enz. je zal gebruiken tijdens de demo.
+Powerpoint kan je [hier](presentatie/presentatie.md) vinden.
 
 ## Reflecties
 

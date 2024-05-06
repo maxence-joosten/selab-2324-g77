@@ -180,6 +180,8 @@ Het is zeer belangrijk om alle kennis toe te passen die je in de voorgaande opdr
 
 ## Voorbereiding demo
 
+Powerpoint kan je [hier](presentatie/presentatie.md) vinden.
+
 ## Reflecties
 
 #### Xander Beuselinck
