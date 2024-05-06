@@ -153,6 +153,11 @@ IPv6:
 
 - Ja
 
+| Van/naar | SW1 | R1(G0/0/0) | R1(G0/0/0) | SW2 |
+| -------- | --- | ---------- | ---------- | --- |
+| PC1      | ja  | ja         | ja         | ja  |
+| PC3      | ja  | ja         | ja         | ja  |
+
 ### Vraag 20 - Wat is de "SSH timeout" en "maximum authentication retries"?
 
 - **SSH timeout:** Dit is de tijd die de SSH-server wacht op een reactie van de SSH-client tijdens het verbindingsproces.
