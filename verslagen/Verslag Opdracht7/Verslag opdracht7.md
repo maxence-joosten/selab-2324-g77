@@ -34,16 +34,16 @@ Een LLA (Link-local Address) is **een unieke lokale link (niet internet)** die *
 
 ### Vraag 3 - Wat is het verschil tussen een LLA en een GUA? Wat is hun functie?
 
-| **Toestel** | **Interface** | **Subnetnr.** | **IPv6-adres** | **Subnetmask** | **IPv6-adres default gateway** |
-| ----------- | ------------- | ------------- | -------------- | -------------- | ------------------------------ |
-| PC1         | NIC           | 0             |                | /64            | FE80::1                        |
-| PC2         | NIC           | 0             |                | /64            | FE80::1                        |
-| PC3         | NIC           | 1             |                | /64            | FE80::1                        |
-| PC4         | NIC           | 1             |                | /64            | FE80::1                        |
-| SW1         | VLAN 1        | 0             |                | /64            | FE80::1                        |
-| SW2         | VLAN 1        | 1             |                | /64            | FE80::1                        |
-| R1          | G0/0/0        | 0             | FE80::1        | /64            | n.v.t.                         |
-| R1          | G0/0/1        | 1             | FE80::1        | /64            | n.v.t.                         |
+| **Toestel** | **Interface** | **Subnetnr.** | **IPv6-adres**         | **Subnet** | **IPv6-adres default gateway** |
+| ----------- | ------------- | ------------- | ---------------------- | ---------- | ------------------------------ |
+| PC1         | NIC           | 0             | fd96:e3d3:59a2:0::1    | /64        | FE80::1                        |
+| PC2         | NIC           | 0             | fd96:e3d3:59a2:0::2    | /64        | FE80::1                        |
+| PC3         | NIC           | 1             | fd96:e3d3:59a2:1::1    | /64        | FE80::1                        |
+| PC4         | NIC           | 1             | fd96:e3d3:59a2:1::2    | /64        | FE80::1                        |
+| SW1         | VLAN 1        | 0             | fd96:e3d3:59a2:0::FFFE | /64        | fd96:e3d3:59a2:0::3            |
+| SW2         | VLAN 1        | 1             | fd96:e3d3:59a2:1::FFFE | /64        | fd96:e3d3:59a2:1::3            |
+| R1          | G0/0/0        | 0             | fd96:e3d3:59a2:0::3    | /64        | n.v.t.                         |
+| R1          | G0/0/1        | 1             | fd96:e3d3:59a2:1::3    | /64        | n.v.t.                         |
 
 ### Vraag 4 - Hoe toon je de huidige configuratie?
 
@@ -190,8 +190,8 @@ IPv6:
   - [x] De startup config is weggeschreven.
   - [x] Je kan via IPv4 pingen naar zowel SW1, R1, SW2.
 - [ ] Je kan vanuit PC1 een SSH-verbinding openen naar SW1 en R1 via IPv4.
-- [ ] Je hebt een verslag gemaakt op basis van het template.
-- [ ] De cheat sheet werd aangevuld met nuttige commando's die je wenst te onthouden voor later.
+- [x] Je hebt een verslag gemaakt op basis van het template.
+- [x] De cheat sheet werd aangevuld met nuttige commando's die je wenst te onthouden voor later.
 
 ## Problemen en oplossingen
 
