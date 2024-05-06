@@ -109,13 +109,13 @@ IPv6:
 
 | **Van/naar** | **PC1** | **PC2** | **SW1** | **R1 (G0/0/0)** | **R2 (G0/0/1)** | **SW2** | **PC3** | **PC4** |
 | ------------ | ------- | ------- | ------- | --------------- | --------------- | ------- | ------- | ------- |
-| PC1          | n.v.t.  |         |         |                 |                 |         |         |         |
-| PC2          |         | n.v.t.  |         |                 |                 |         |         |         |
-| SW1          |         |         | n.v.t.  |                 |                 |         |         |         |
-| R1           |         |         |         | n.v.t.          | n.v.t.          |         |         |         |
-| SW2          |         |         |         |                 |                 | n.v.t.  |         |         |
-| PC3          |         |         |         |                 |                 |         | n.v.t.  |         |
-| PC4          |         |         |         |                 |                 |         |         | n.v.t.  |
+| PC1          | n.v.t.  | ja      | ja      | ja              | ja              | ja      | ja      | ja      |
+| PC2          | ja      | n.v.t.  | ja      | ja              | ja              | ja      | ja      | ja      |
+| SW1          | ja      | ja      | n.v.t.  | ja              | ja              | ja      | ja      | ja      |
+| R1           | ja      | ja      | ja      | n.v.t.          | n.v.t.          | ja      | ja      | ja      |
+| SW2          | ja      | ja      | ja      | ja              | ja              | n.v.t.  | ja      | ja      |
+| PC3          | ja      | ja      | ja      | ja              | ja              | ja      | n.v.t.  | ja      |
+| PC4          | ja      | ja      | ja      | ja              | ja              | ja      | ja      | n.v.t.  |
 
 ### Vraag 11 - Hoe toon je de routeringstabel?
 
