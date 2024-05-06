@@ -2,6 +2,32 @@
 
 > Student: Maxence
 
+## Opdracht 7: Het opzetten, configureren en testen van een eenvoudig netwerk in Packet Tracer
+
+| Task                                                                               | Commando                                                                                                    |
+| ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| Admin worden                                                                       | `enable`                                                                                                    |
+| Admin disablen                                                                     | `disable`                                                                                                   |
+| Globale configuratie                                                               | `configure terminal`                                                                                        |
+| Naam aanpassen                                                                     | `hostname <naam>`                                                                                           |
+| Default naam                                                                       | `no hostname`                                                                                               |
+| Veranderen van configuratie naar de normale configuratie                           | `exit`                                                                                                      |
+| EXEC configuration & VTY configuration                                             | <ul> <li>`line console 0` </li> <li> `line vty 0` </li></ul>                                                |
+| Wachtwoord vervangen van de user EXEC mode                                         | `password <wachtwoord>`                                                                                     |
+| Wachtwoord instellen (met encryption)                                              | `enable secret <password>`                                                                                  |
+| Passwoordencryptie enablen                                                         | `service password-encryption`                                                                               |
+| Helemaal terugkeren naar normale configuratie                                      | <ul><li>`end`</li><li>`^Z`</li></ul>                                                                        |
+| Alle commando's bekijken                                                           | `?`                                                                                                         |
+| Banner maken                                                                       | `banner motd #<message>`                                                                                    |
+| Configuratiefile in de vaste ram zetten (zodat je het na opstarten nogsteeds hebt) | `copy running-config startup-config`                                                                        |
+| Apparaat verversen                                                                 | `reload`                                                                                                    |
+| Factory reset                                                                      | `erase startup-config`                                                                                      |
+| Ip adres asignen                                                                   | `ip address <ip-address> <subnet-mask>`                                                                     |
+| IP Interface samengevat tonen                                                      | `show ip interface brief`                                                                                   |
+| Default gateway configureren                                                       | `ip default-gateway <ip-address>`                                                                           |
+| Routeringstabel tonen                                                              | `show ip route`                                                                                             |
+| Zowel ipv4 als ipv6 configuratie enablen                                           | <ul><li>`sdm prefer dual-ipv4-and-ipv6 default`</li><li>`ipv6 unicast routing`</li> <li>`reload`</li> </ul> |
+
 ## Opdracht 6: Trouble Shooting
 
 | Task                                              | Commando               |
