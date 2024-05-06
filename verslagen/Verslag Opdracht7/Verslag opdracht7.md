@@ -69,12 +69,12 @@ IPv4:
 
 | **Van/naar** | **PC1** | **PC2** | **SW1** | **R1 (G0/0/0)** | **R2 (G0/0/1)** | **SW2** | **PC3** | **PC4** |
 | ------------ | ------- | ------- | ------- | --------------- | --------------- | ------- | ------- | ------- |
-| PC1          | n.v.t.  |         |         |                 |                 |         |         |         |
-| PC2          |         | n.v.t.  |         |                 |                 |         |         |         |
-| SW1          |         |         | n.v.t.  |                 |                 |         |         |         |
-| SW2          |         |         |         |                 |                 | n.v.t.  |         |         |
-| PC3          |         |         |         |                 |                 |         | n.v.t.  |         |
-| PC4          |         |         |         |                 |                 |         |         | n.v.t.  |
+| PC1          | n.v.t.  | ja      | ja      | ja              | nee             | nee     | nee     | nee     |
+| PC2          | ja      | n.v.t.  | ja      | ja              | nee             | nee     | nee     | nee     |
+| SW1          | ja      | ja      | n.v.t.  | ja              | nee             | nee     | nee     | nee     |
+| SW2          | nee     | nee     | nee     | nee             | ja              | n.v.t.  | ja      | ja      |
+| PC3          | nee     | nee     | nee     | nee             | ja              | ja      | n.v.t.  | ja      |
+| PC4          | nee     | nee     | nee     | nee             | ja              | ja      | ja      | n.v.t.  |
 
 IPv6:
 
@@ -97,13 +97,13 @@ IPv4:
 
 | **Van/naar** | **PC1** | **PC2** | **SW1** | **R1 (G0/0/0)** | **R2 (G0/0/1)** | **SW2** | **PC3** | **PC4** |
 | ------------ | ------- | ------- | ------- | --------------- | --------------- | ------- | ------- | ------- |
-| PC1          | n.v.t.  |         |         |                 |                 |         |         |         |
-| PC2          |         | n.v.t.  |         |                 |                 |         |         |         |
-| SW1          |         |         | n.v.t.  |                 |                 |         |         |         |
-| R1           |         |         |         | n.v.t.          | n.v.t.          |         |         |         |
-| SW2          |         |         |         |                 |                 | n.v.t.  |         |         |
-| PC3          |         |         |         |                 |                 |         | n.v.t.  |         |
-| PC4          |         |         |         |                 |                 |         |         | n.v.t.  |
+| PC1          | n.v.t.  | ja      | ja      | ja              | ja              | ja      | ja      | ja      |
+| PC2          | ja      | n.v.t.  | ja      | ja              | ja              | ja      | ja      | ja      |
+| SW1          | ja      | ja      | n.v.t.  | ja              | ja              | ja      | ja      | ja      |
+| R1           | ja      | ja      | ja      | n.v.t.          | n.v.t.          | ja      | ja      | ja      |
+| SW2          | ja      | ja      | ja      | ja              | ja              | n.v.t.  | ja      | ja      |
+| PC3          | ja      | ja      | ja      | ja              | ja              | ja      | n.v.t.  | ja      |
+| PC4          | ja      | ja      | ja      | ja              | ja              | ja      | ja      | n.v.t.  |
 
 IPv6:
 
@@ -167,7 +167,6 @@ IPv6:
 - `write terminal`
 - `end`
 
-
 ### Vraag 22 - Welke subnetting (IPv4 of IPv6) was voor jou het makkelijkst uit te voeren? Waarom?
 
 - IPv4, deze waren we al het meest gewoon vanuit onze lessen.
@@ -175,7 +174,6 @@ IPv6:
 ### Vraag 23 - Wat was voor jou de moeilijkste stap van de gehele opdracht?
 
 - IPv6 berekenen
-
 
 ## Evaluatiecriteria
 
@@ -197,33 +195,27 @@ IPv6:
 
 ## Problemen en oplossingen
 
-### Probleem 1 - Fout in het adresseringsschema van IPv4 
+### Probleem 1 - Fout in het adresseringsschema van IPv4
 
 De tabel had de eerste keer een kleine fout waardoor het niet lukte om apparaten te pingen in Cisco Packet tracer. Een oplossing was snel gevonden.
 
 ## Voorbereiding demo
 
 Powerpoint kan je [hier](presentatie/presentatie.md) vinden.
+
 ## Reflecties
-
-
 
 ### Mauro
 
-Deze opdracht is mij minder goed gelukt, ik heb proberen een adresseringsschema te maken, maar ik heb meer fouten gemaakt dan problemen op te lossen.  Dit had een mooie afsluiter kunnen zijn van SE-Lab al ik mijn lessen van computer netwerk beter genoteerd had om beroep op te doen ipv vele vragen mijn teamgenoot te stellen. 
-
-
+Deze opdracht is mij minder goed gelukt, ik heb proberen een adresseringsschema te maken, maar ik heb meer fouten gemaakt dan problemen op te lossen. Dit had een mooie afsluiter kunnen zijn van SE-Lab al ik mijn lessen van computer netwerk beter genoteerd had om beroep op te doen ipv vele vragen mijn teamgenoot te stellen.
 
 ### Maxence
 
 Ik vond dit over het algemeen een toffe opdracht. Subnetten vind ik eigenlijk nog redelijk tof. Het is ook een zeer belangrijke en leerzame opdracht, iets wat we later zeker en vast nodig gaan hebben. Ik vond dit een mooie afsluiter van dit project.
 
-
 ### Robin
 
-
 ### Thomas
-
 
 ### Xander
 
@@ -231,9 +223,7 @@ Mijn ervaring met deze laatste opdracht viel in het begin wat tegen omdat paket 
 
 ## Bronnen
 
-- [Youtube.com/@NetworkChuck](https://www.youtube.com/@NetworkChuck)
+- [Youtube.com/@NetworkChuck](https://www.youtube.com/playlist?list=PLIhvC56v63IKrRHh3gvZZBAGvsvOhwrRF)
 - Chamilo: Computer Networks leerpad
 - [github.com/HOGENT-SELab/selab-2324-g77](https://github.com/HOGENT-SELab/selab-2324-g77)
 - https://www.youtube.com/watch?v=ecCuyq-Wprc
-
-
