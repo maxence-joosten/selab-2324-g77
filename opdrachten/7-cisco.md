@@ -110,12 +110,12 @@ Er bestaan verschillende types IPv6-adressen zoals de link-local adressen (LLA's
 
 Sommige commando's uit de volgende stappen werken enkel indien de software versie op jouw switch of router 15 of hoger is. Dit controleer je via het commando `show version`. Is dat niet zo dan voer je eerste de instructies uit zoals vermeld op deze site: <https://yaser-rahmati.gitbook.io/rahmati-academy/Tutorials-Library/cisco-adademy/cisco-packet-tracer/use-a-tftp-server-to-upgrade-a-cisco-ios-image>. Je voert de instructies op elk apparaat afzonderlijk uit tot elke router en switch over minstens versie 15 beschikt.
 
-### Stap 4 - Configuratie van de PC's
+### Stap 5 - Configuratie van de PC's
 
 - Stel voor elke PC het statisch IPv4-adres, de subnetmask en de default gateway in.
 - Stel voor elke PC het statisch IPv6-adres (GUA), de prefixlengte en de default gateway in.
 
-### Stap 5 - Configuratie van de switches
+### Stap 6 - Configuratie van de switches
 
 Configureer elke switch als volgt:
 
@@ -177,7 +177,7 @@ IPv6:
 
 - Waarom geeft de eerste ping soms een `Request timed out.` foutmelding terwijl de volgende drie wel lukken?
 
-### Stap 6 - Configuratie van de router
+### Stap 7 - Configuratie van de router
 
 Configureer de router als volgt:
 
@@ -224,7 +224,7 @@ IPv4:
   - Hoe kan je de MAC-adressen terugvinden van de interfaces?
 - Een default gateway hoeft niet geconfigureerd te worden op een router. Waarom niet? Wanneer zou je in de plaats hiervan wel een **default route** configureren?
 
-### Stap 7 - Instellen SSH-toegang
+### Stap 8 - Instellen SSH-toegang
 
 Configureer de switches en router als volgt:
 
@@ -246,7 +246,7 @@ Configureer de switches en router als volgt:
   - Tip: voer een `reload` uit op R1, SW1 en SW2 alvorens dit te testen
 - Wat is de "SSH timeout" en "maximum authentication retries"? Hoe stel ik deze in op 60 seconden en 3 retries?
 
-### Stap 8 - Reflectie
+### Stap 9 - Reflectie
 
 - Welke subnetting (IPv4 of IPv6) was voor jou het makkelijkst uit te voeren? Waarom?
 - Wat was voor jou de moeilijkste stap van de gehele opdracht?
